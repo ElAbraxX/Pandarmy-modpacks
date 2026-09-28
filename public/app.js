@@ -67,7 +67,7 @@ function launcherLinks(body,pack){
   }
   body.append(element('p',pack.format==='modrinth'?'Compatible con Modrinth, Prism y el instalador Abra.':'Importa este ZIP exportado de CurseForge en CurseForge App o Prism.','muted'));
   const help=link('Cómo instalar este formato','#install','text-link');
-  help.addEventListener('click',()=>{view('install');document.getElementById(pack.format==='modrinth'?'guide-mrpack':'guide-curseforge').scrollIntoView({behavior:'smooth'});});
+  help.addEventListener('click',()=>{view('install');const guide=document.getElementById(pack.format==='modrinth'?'guide-mrpack':'guide-curseforge');guide.open=true;guide.scrollIntoView({behavior:'smooth'});});
   body.append(help);
   alternativeLauncherGuide(body,pack);
 }

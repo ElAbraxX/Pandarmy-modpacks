@@ -1,0 +1,5 @@
+#install > .panel { margin: 14px 0; }
+#install details > summary { cursor: pointer; font-size: 17px; font-weight: 650; }
+#install details[open] > summary { margin-bottom: 20px; }
+#install details .panel { margin-top: 16px; }
+#install summary:focus-visible { outline: 3px solid var(--brand); outline-offset: 6px; }
