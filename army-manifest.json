@@ -1,0 +1,3089 @@
+{
+  "$schema": "./manifest.schema.json",
+  "schemaVersion": 1,
+  "pack": {
+    "id": "pandarmy-halloween",
+    "name": "PandArmy Halloween",
+    "version": "1.0.1",
+    "publishedAt": "2026-10-03T21:06:24.986Z"
+  },
+  "preserve": [
+    "saves/**",
+    "screenshots/**",
+    "options.txt",
+    "servers.dat"
+  ],
+  "variants": [
+    {
+      "id": "pandarmy-forge",
+      "minecraftVersion": "1.19.2",
+      "loader": {
+        "id": "forge",
+        "version": "1.19.2-43.5.0"
+      },
+      "javaMajor": 17,
+      "files": [
+        {
+          "path": "config/additionalstructures-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e2253a924eb0--additionalstructures-client.toml",
+          "sha256": "cba9f5227c506c4cf5c858fb5d94327c9fe683bcc39029602d5cbd2ac031b8cb",
+          "size": 80,
+          "kind": "config"
+        },
+        {
+          "path": "config/ambientsounds-client.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--51c23d7b9b3c--ambientsounds-client.json",
+          "sha256": "8f9971df3b8c66cc31712959a6f6e0055e5df4596ecd2df5d7401fc3c1f153c7",
+          "size": 3396,
+          "kind": "config"
+        },
+        {
+          "path": "config/anomaly_client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9c12e8aca3b1--anomaly_client.toml",
+          "sha256": "36b979a06d1a247b57fa655570341d5b9edd6586a35d0350339ce907e5b0a7e3",
+          "size": 321,
+          "kind": "config"
+        },
+        {
+          "path": "config/anomaly_server.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bcebc59df902--anomaly_server.toml",
+          "sha256": "f842aec0a9322e4ef1bde0dfcdb405d5d64092ed9f6fd7eddc64f73f265d39fc",
+          "size": 2550,
+          "kind": "config"
+        },
+        {
+          "path": "config/appleskin-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cca407a69bc0--appleskin-client.toml",
+          "sha256": "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48",
+          "size": 1361,
+          "kind": "config"
+        },
+        {
+          "path": "config/auditory.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--51d4e8d48f03--auditory.json",
+          "sha256": "d72e6afe46975f330666e110463b16a81d1dea70d8915284c417f15a7cb82d1f",
+          "size": 1607,
+          "kind": "config"
+        },
+        {
+          "path": "config/autotranslation.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--de634f8fca48--autotranslation.json5",
+          "sha256": "808b8920cfbc57612e24c69e4cc74866f5b1ee4ccb7cabeaf06951250951d035",
+          "size": 1581,
+          "kind": "config"
+        },
+        {
+          "path": "config/badmobs-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8cb5182a021a--badmobs-common.toml",
+          "sha256": "dd7180a888735acc00430bd1aa358d0297ab6de71f24535220b01528fc54eb4c",
+          "size": 329686,
+          "kind": "config"
+        },
+        {
+          "path": "config/BatteryDuration.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--aac77833631a--BatteryDuration.toml",
+          "sha256": "1e08c0c0f08b4be10a9a4cba56b6f13d61f21c16ecf9fe12571895b44880b61e",
+          "size": 159,
+          "kind": "config"
+        },
+        {
+          "path": "config/benched-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4507fd4be907--benched-common.toml",
+          "sha256": "f6f1f4fe3a810d8d1da7f4836eb8b1b42bc2d3b4a433cb583e8526a633560a6f",
+          "size": 127,
+          "kind": "config"
+        },
+        {
+          "path": "config/betterdungeons-forge-1_19.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5aaf2d9f858b--betterdungeons-forge-1_19.toml",
+          "sha256": "946ce267d09bcedf40defb277de8b64ee72b37118230d47b20eabf55aa32f91a",
+          "size": 3486,
+          "kind": "config"
+        },
+        {
+          "path": "config/betterfoliage-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6737528528de--betterfoliage-client.toml",
+          "sha256": "3b01406c82f3f3262615e112e7ed14f9098a41bf933884f7fe797ea867b43ba7",
+          "size": 986,
+          "kind": "config"
+        },
+        {
+          "path": "config/betterfpsdist.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f4c753ea9274--betterfpsdist.json",
+          "sha256": "371f4a25c65652f254ad563c0be8331f7aa25ffd362dcb2204edbd7bb2dc1670",
+          "size": 168,
+          "kind": "config"
+        },
+        {
+          "path": "config/bettermineshafts/forge-1_19/README.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d7ca50fece31--README.txt",
+          "sha256": "9a19891b5669b7601c2602e3fd2949ba894a656409aee973a719c22f2039e167",
+          "size": 371,
+          "kind": "config"
+        },
+        {
+          "path": "config/bettermineshafts/README.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7b01be75082b--README.txt",
+          "sha256": "05d0ea6f43b09d5deffe914611f32551a103248e1152bfe7660ca94c671a5a6d",
+          "size": 682,
+          "kind": "config"
+        },
+        {
+          "path": "config/bettermineshafts-forge-1_19.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d2b29a296e8f--bettermineshafts-forge-1_19.toml",
+          "sha256": "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11",
+          "size": 3773,
+          "kind": "config"
+        },
+        {
+          "path": "config/bettervillage_1.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--03279c791af9--bettervillage_1.properties",
+          "sha256": "2af713eb6dbf1eebee48c361de1b2b040bed53016fe85b00dc437821cb604187",
+          "size": 270,
+          "kind": "config"
+        },
+        {
+          "path": "config/biomemusic.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a94dd2e18c98--biomemusic.json",
+          "sha256": "153d19adab1437a85076b1c5648cf2d6ee0f41afda1765e0c0f49075a26cb7f2",
+          "size": 1079,
+          "kind": "config"
+        },
+        {
+          "path": "config/biomesoplenty/biome_toggles.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--271691d4b0e5--biome_toggles.json",
+          "sha256": "eb2bdab461d304226bb74ac439c20e6199d84ed2ade7f7d31b3d504c5fab2acf",
+          "size": 2079,
+          "kind": "config"
+        },
+        {
+          "path": "config/biomesoplenty/generation.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--308727b3b8b6--generation.toml",
+          "sha256": "9de600b6c85029f74a7549a6f7074065ac55310666c54bebd4c3bf573b0379d7",
+          "size": 619,
+          "kind": "config"
+        },
+        {
+          "path": "config/bloodybits-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d9f40b6c4115--bloodybits-client.toml",
+          "sha256": "842b860174372fdb9b8eb6b52940d645968c80590889df9cfa8193244fc91872",
+          "size": 257,
+          "kind": "config"
+        },
+        {
+          "path": "config/bloodybits-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--baf90e27d99f--bloodybits-common.toml",
+          "sha256": "7779e67e0d6b86e920d6c67d4922007364c68bc554383a55c0e19aa7a1b2c626",
+          "size": 1585,
+          "kind": "config"
+        },
+        {
+          "path": "config/bloodybits_colors/test_blood_mobs.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--24f783bd6bcd--test_blood_mobs.json",
+          "sha256": "a332f0ff7f47dc256e32f9b545eddf4ca4b35b99e125651155933c8a0ec6572a",
+          "size": 612,
+          "kind": "config"
+        },
+        {
+          "path": "config/blur-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c07df0b29f84--blur-client.toml",
+          "sha256": "5d1f67d3dabefcc6eed0b1ac4074e79e6d918f000691f2c727f4d8739f6f59e7",
+          "size": 801,
+          "kind": "config"
+        },
+        {
+          "path": "config/borderlesswindow-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--34d08c6138fd--borderlesswindow-client.toml",
+          "sha256": "8fc19943fd720316f8e5d6fbb264b72a363499c397011abf2c926aab2841f068",
+          "size": 989,
+          "kind": "config"
+        },
+        {
+          "path": "config/cameraoverhaul.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a67a0441200c--cameraoverhaul.toml",
+          "sha256": "a5103948d78724f64b0aa4b6484dc2f03ada6c925f50369eade0139dd2e00c15",
+          "size": 8348,
+          "kind": "config"
+        },
+        {
+          "path": "config/carryon-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4e0d4b6c7295--carryon-client.toml",
+          "sha256": "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db",
+          "size": 590,
+          "kind": "config"
+        },
+        {
+          "path": "config/carryon-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3e71a7b3ff78--carryon-common.toml",
+          "sha256": "fb21d2b98eba605e236cae46be90980321e20b7137120ea4bd187b21523d642a",
+          "size": 7131,
+          "kind": "config"
+        },
+        {
+          "path": "config/cc-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--77c26dcbf40e--cc-common.toml",
+          "sha256": "132bff6b85e3ff1c29295dfce25805df7c613f75089f7ca00568dfe651b79e61",
+          "size": 621,
+          "kind": "config"
+        },
+        {
+          "path": "config/collective.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--aee17a0d5382--collective.json5",
+          "sha256": "600046b205e20aa3a2ff5af8a66a202c00a97b1c27a6c0675211dbe11d4c0b5f",
+          "size": 960,
+          "kind": "config"
+        },
+        {
+          "path": "config/CoroUtil/General.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--65c1ec895ffe--General.toml",
+          "sha256": "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398",
+          "size": 133,
+          "kind": "config"
+        },
+        {
+          "path": "config/create-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ba7f4052172e--create-client.toml",
+          "sha256": "570f362ea2b9d90d070e436f4cef78ce3b90ab49f5c09dab7c2a3b6b9495d7f3",
+          "size": 5024,
+          "kind": "config"
+        },
+        {
+          "path": "config/create-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d56bcf95e6a8--create-common.toml",
+          "sha256": "5ecbf2bd9577f059760c02b37d8931b5fbec5567bd1190f943b19b5e3a493a8c",
+          "size": 1299,
+          "kind": "config"
+        },
+        {
+          "path": "config/cull-less-leaves.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--995f5b42975f--cull-less-leaves.json",
+          "sha256": "6bc92f3695f35c601c2adfa1f51e9f616df379288f2a260fd1f4011c5bad50ee",
+          "size": 35,
+          "kind": "config"
+        },
+        {
+          "path": "config/cupboard.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a72f69bc640f--cupboard.json",
+          "sha256": "08bda8a4a20d302cb97d06bf11c4991e152a3a9e04c17302ea3b42aa77e6b028",
+          "size": 1090,
+          "kind": "config"
+        },
+        {
+          "path": "config/curios-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5d1456786f82--curios-client.toml",
+          "sha256": "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc",
+          "size": 706,
+          "kind": "config"
+        },
+        {
+          "path": "config/darkmodeeverywhere-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d4be7ddcdd0f--darkmodeeverywhere-client.toml",
+          "sha256": "90d02768387ea0047c2c77f26e2c7439111f0450ebdf2b173f0bea4495038074",
+          "size": 1842,
+          "kind": "config"
+        },
+        {
+          "path": "config/darkmodeeverywhereshaders.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6a56739470e9--darkmodeeverywhereshaders.json",
+          "sha256": "e3c521fc518bb4ce40925d55f7a2bdeb752409fc766cd4d6f4f46fae16b4f127",
+          "size": 1356,
+          "kind": "config"
+        },
+        {
+          "path": "config/darkness.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3fbe966dfd2c--darkness.properties",
+          "sha256": "cb77529ce7171b47da0ae5dafd8ce99cc8143d8c0da84e80a3d50ca5f05b2ee0",
+          "size": 245,
+          "kind": "config"
+        },
+        {
+          "path": "config/defaultoptions-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5d43ba039b5f--defaultoptions-common.toml",
+          "sha256": "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355",
+          "size": 381,
+          "kind": "config"
+        },
+        {
+          "path": "config/DisturbedConfig.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6d051abfa1e1--DisturbedConfig.toml",
+          "sha256": "cfc19e469a8e8290a800850e64a38b1b74e2111177172637fc5cfdedef2ab959",
+          "size": 4427,
+          "kind": "config"
+        },
+        {
+          "path": "config/dungeons_plus-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--da3b604dedb7--dungeons_plus-common.toml",
+          "sha256": "6a5d69bd73ad89ee598c00403d43c4baf2cfe288307cea40c0715f3e089698a8",
+          "size": 8923,
+          "kind": "config"
+        },
+        {
+          "path": "config/dynamic_lights_reforged.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--16faa9bbb4b4--dynamic_lights_reforged.toml",
+          "sha256": "149f6a17dca7fee24a5667e175a2cf130dc2b142e2f1654882c6465fe475e881",
+          "size": 301,
+          "kind": "config"
+        },
+        {
+          "path": "config/editmobdrops/editmobdrops.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--67de7903777d--editmobdrops.toml",
+          "sha256": "7e1fe15c2d8b3a16c36e8ea3d30dc778cef36d8cd6571cdac1589c4566373a75",
+          "size": 658,
+          "kind": "config"
+        },
+        {
+          "path": "config/effective_fg-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f8260bf508d1--effective_fg-client.toml",
+          "sha256": "c86c21683479e7af6df4c70d57f61018e9116ed347ec55df1926d122c830d891",
+          "size": 782,
+          "kind": "config"
+        },
+        {
+          "path": "config/enhancedvisuals-client.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8406d28bbde6--enhancedvisuals-client.json",
+          "sha256": "f738914c2b6583a68dc00f8b06ad94cb133ef13693689e7ccb0fa733edfa70dc",
+          "size": 7073,
+          "kind": "config"
+        },
+        {
+          "path": "config/enhancedvisuals.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--362f7290f86f--enhancedvisuals.json",
+          "sha256": "0db28b852e68e602e80940bc108ec70784d8975a8921d80678a0b24b3e088fd9",
+          "size": 429,
+          "kind": "config"
+        },
+        {
+          "path": "config/entityculling.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--68a4ac4f7d04--entityculling.json",
+          "sha256": "b8a87894038f8e3fed39687928119da41553ec72fafd3c6b98e39efb62ac6e7d",
+          "size": 790,
+          "kind": "config"
+        },
+        {
+          "path": "config/entity_model_features.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--620c6f4e44e1--entity_model_features.json",
+          "sha256": "0103610444b018e2af9c622a4750df5dcc8fc020ff5b80b497345c689325023a",
+          "size": 662,
+          "kind": "config"
+        },
+        {
+          "path": "config/entity_texture_features.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ac7ab8735a8a--entity_texture_features.json",
+          "sha256": "a78b708622316646134ae1e7b80e52d6ed8ca43ffd9a5239fd22b619a0b4c283",
+          "size": 1189,
+          "kind": "config"
+        },
+        {
+          "path": "config/etf_warnings.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1b63d6614f94--etf_warnings.json",
+          "sha256": "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e",
+          "size": 28,
+          "kind": "config"
+        },
+        {
+          "path": "config/fallingtree.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9c0bdd8a948a--fallingtree.json",
+          "sha256": "3cb918be192a7a0d3d61fce8ceba4ed9dce2f951182d83882fe8ec70adc4d09c",
+          "size": 1240,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/assets/fancymenu/halloween/pumpkin_lights.gif",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2ff747fb6ad6--pumpkin_lights.gif",
+          "sha256": "57c3b84d7fc15b93ac38f3ce6b01b7f9a51c68ec767290b69b5b745f61ede2a0",
+          "size": 3851485,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/assets/fancymenu/halloween/pumpkin_night.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--25396c998c58--pumpkin_night.png",
+          "sha256": "dc2d67cc179059e9a124bc9aa7447892aab4912487c26b1c63c4d0dc0ce25ad9",
+          "size": 2113817,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/assets/imagen.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2c634955979b--imagen.png",
+          "sha256": "dc2d67cc179059e9a124bc9aa7447892aab4912487c26b1c63c4d0dc0ce25ad9",
+          "size": 2113817,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/assets/minecraft-text.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a266cb84bae9--minecraft-text.png",
+          "sha256": "8157de9470780d8d6b16ca179d112b6f31fc1030cd512f1a377cb7e9b3e3d318",
+          "size": 36673,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/customizablemenus.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f21af2d6be93--customizablemenus.txt",
+          "sha256": "f007375bb9da5eaa13a20598aba146e4ace3c55046b2702cccb987f85c0f8dad",
+          "size": 512,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/customization/title_screen_layout.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5e797e35b0d0--title_screen_layout.txt",
+          "sha256": "bf48c9143ad0b2e70e6e36797576eacc17b0361b92e6c316daf2019ccd90706e",
+          "size": 52367,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/customization/universal_layout.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--324c7bbc550f--universal_layout.txt",
+          "sha256": "95e18f56c4ea0a3262255046312b99beb6342a316b186e3e134d61ff5f8f4d31",
+          "size": 10525,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/custom_gui_screens.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--eb92299ca647--custom_gui_screens.txt",
+          "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880",
+          "size": 51,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2fe63ae42eab--element_layer_control.lewidget",
+          "sha256": "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495",
+          "size": 197,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/legacy_checklist.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--51081e3b973d--legacy_checklist.txt",
+          "sha256": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
+          "size": 42,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/options.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--99159fcfeeaa--options.txt",
+          "sha256": "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab",
+          "size": 4400,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c996e6afa61a--cherry_blossom.json",
+          "sha256": "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452",
+          "size": 9349,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e20cf6633c38--cozy_campfire.json",
+          "sha256": "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50",
+          "size": 9347,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/dark.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e37d0cd9b1e2--dark.json",
+          "sha256": "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498",
+          "size": 9329,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1a3763a11517--dark_high_contrast.json",
+          "sha256": "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26",
+          "size": 9359,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/light.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--981a37f12301--light.json",
+          "sha256": "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153",
+          "size": 9331,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0a17d3fbf371--light_high_contrast.json",
+          "sha256": "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a",
+          "size": 9361,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b93b4e75b08a--pumpkin_soup.json",
+          "sha256": "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311",
+          "size": 9345,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/purple_void.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d753eb9f13fc--purple_void.json",
+          "sha256": "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0",
+          "size": 9343,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/ui_themes/spooky_season.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f5f935c4d6d6--spooky_season.json",
+          "sha256": "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd",
+          "size": 9347,
+          "kind": "config"
+        },
+        {
+          "path": "config/fancymenu/user_variables.db",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9505556894fc--user_variables.db",
+          "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
+          "size": 23,
+          "kind": "config"
+        },
+        {
+          "path": "config/farmersdelight-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3ff94eee35d8--farmersdelight-client.toml",
+          "sha256": "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014",
+          "size": 369,
+          "kind": "config"
+        },
+        {
+          "path": "config/farmersdelight-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3e97313e0ede--farmersdelight-common.toml",
+          "sha256": "23dac8e8964b311ec6361b30dfb33db572a4bf13657c545bb1b618ffe7f896f1",
+          "size": 4425,
+          "kind": "config"
+        },
+        {
+          "path": "config/ferritecore-mixin.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--382bfcbaaddd--ferritecore-mixin.toml",
+          "sha256": "dcb84ac5f254daa320c10e120407806c28b277d8a7eef86b7fa903cc3020c4b9",
+          "size": 1399,
+          "kind": "config"
+        },
+        {
+          "path": "config/flywheel-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--960dd9f0a807--flywheel-client.toml",
+          "sha256": "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f",
+          "size": 274,
+          "kind": "config"
+        },
+        {
+          "path": "config/fml.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e513525087df--fml.toml",
+          "sha256": "eb5434c7520284945763f461841e91da86895a70324e13218a07824f81e5ec87",
+          "size": 309,
+          "kind": "config"
+        },
+        {
+          "path": "config/forge-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8029e6a38bdc--forge-client.toml",
+          "sha256": "fa8ee71584f7253b153e6401a696ea4e6c19a219978c9a02c51d1ffba847730c",
+          "size": 1107,
+          "kind": "config"
+        },
+        {
+          "path": "config/forge-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1b20222890ca--forge-common.toml",
+          "sha256": "a440d2a7ce939ef3c462475555a9a188263aebdbf13db600de3f01d9d312970c",
+          "size": 566,
+          "kind": "config"
+        },
+        {
+          "path": "config/forge-resource-caching.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ef94d11fa3ed--forge-resource-caching.toml",
+          "sha256": "52df30f5c619e0b8f0549eb442f43cedbee8ca039cc711eaa25f1a13e3d3ee79",
+          "size": 637,
+          "kind": "config"
+        },
+        {
+          "path": "config/fragiletorches.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d290bc8f6600--fragiletorches.toml",
+          "sha256": "65e36447bdaa9d65cb5d2f479e79ec069eeeb72ae37111efbaca86505408f401",
+          "size": 700,
+          "kind": "config"
+        },
+        {
+          "path": "config/Ghost Players Config.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6efe9a80bfbf--Ghost_Players_Config.toml",
+          "sha256": "270f08ab5fcf05e759440ad566bf0720ed3cd8aeebdb18cac05dac676c980f46",
+          "size": 4425,
+          "kind": "config"
+        },
+        {
+          "path": "config/graveyard-1.19.x-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3a52ad13a40e--graveyard-1.19.x-common.toml",
+          "sha256": "de1ab51b4efb627d3008e25b2ec4d5150bb8c384e175bd82f92e2638351d64cb",
+          "size": 6095,
+          "kind": "config"
+        },
+        {
+          "path": "config/graveyard_biomes-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e643521dc116--graveyard_biomes-common.toml",
+          "sha256": "9fecb582ff154f28e1c93f55a8851a9b032bf36df7e4ee52c5f27623c43c11c8",
+          "size": 2793,
+          "kind": "config"
+        },
+        {
+          "path": "config/halloween_mood-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--355809074273--halloween_mood-common.toml",
+          "sha256": "6d3e1874f43c6cc47ecbf9cf3c62349126f8c5c6d6d0ff07ea75d98fc5652c33",
+          "size": 788,
+          "kind": "config"
+        },
+        {
+          "path": "config/hardcore_torches-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1ce6e2d9ca67--hardcore_torches-client.toml",
+          "sha256": "cc0ea90f48a0f6ef03d9713a7f137a7651a48d579b628bbde76b55ffb73d47b9",
+          "size": 149,
+          "kind": "config"
+        },
+        {
+          "path": "config/hardcore_torches-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9240497f4b0c--hardcore_torches-common.toml",
+          "sha256": "99767c1de99be5b9765fad18f6d61a853fa593001dbe53b7c81e738899af2d6b",
+          "size": 4141,
+          "kind": "config"
+        },
+        {
+          "path": "config/hauntedharvest-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--03649d5208f2--hauntedharvest-common.toml",
+          "sha256": "29507aaaa6fc41a966e608437afb9e4f2c7120cf142e8413cc223254ba867abe",
+          "size": 2419,
+          "kind": "config"
+        },
+        {
+          "path": "config/Hexerei-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--82c54002a37c--Hexerei-client.toml",
+          "sha256": "70d41a3e3d638cfd61783d99f01d38e4867b01495c005bfdb8255115aa75feb8",
+          "size": 1095,
+          "kind": "config"
+        },
+        {
+          "path": "config/Hexerei-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b450de38f000--Hexerei-common.toml",
+          "sha256": "3c02f6c557fe221194e526bb26dda5c00887e935ae78520fd9b49c2c49020a6d",
+          "size": 1909,
+          "kind": "config"
+        },
+        {
+          "path": "config/identity.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--11631916d7f3--identity.json",
+          "sha256": "90e3ab363be0fac199332e6fbb203aff157087b5e82916b9d29aa5aba913faa8",
+          "size": 1401,
+          "kind": "config"
+        },
+        {
+          "path": "config/invmove/unrecognized.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9707b5a0f78e--unrecognized.json",
+          "sha256": "8ff87d275b116772a9f305f9a8cfe18e6543dc10a029800b32ea0012825eaf51",
+          "size": 4032,
+          "kind": "config"
+        },
+        {
+          "path": "config/invmove/vanilla.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--130d91169f8e--vanilla.json",
+          "sha256": "d1151ee0b7aa54a262ade99ba45014b32bf8774a90040f0b65c733d9ab9e2258",
+          "size": 1092,
+          "kind": "config"
+        },
+        {
+          "path": "config/invmove.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--70ea2f75c054--invmove.json",
+          "sha256": "b4306cfc19619ad78fad885566aabd12e642956c1bd8a11b533b5f37cd451621",
+          "size": 449,
+          "kind": "config"
+        },
+        {
+          "path": "config/jade/hide-blocks-1902.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dc8d8821cd9a--hide-blocks-1902.json",
+          "sha256": "6f6658b4a600c154e8bceb74fbfd887c9cb159ae389b1c87d29bd90f21ce5b0a",
+          "size": 207,
+          "kind": "config"
+        },
+        {
+          "path": "config/jade/hide-entities-1902.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5d46c86fa84a--hide-entities-1902.json",
+          "sha256": "82a022760c1ca91894bc3b1184664cf65e16ba39dc17a4aa2fc482c4fe4df581",
+          "size": 250,
+          "kind": "config"
+        },
+        {
+          "path": "config/jade/jade.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--01bd213ebb6e--jade.json",
+          "sha256": "8a59a7151051d7b45f134fd4b1a9f10bc7957cd90c09cd126b4f70a83e5cc994",
+          "size": 1829,
+          "kind": "config"
+        },
+        {
+          "path": "config/jade/plugins.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2705628253a5--plugins.json",
+          "sha256": "b05a7a6ef05a2a75881cd196e646a7ec1e2776460189f366739bbaf175295f81",
+          "size": 1600,
+          "kind": "config"
+        },
+        {
+          "path": "config/jade/sort-order.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--789d26419e2b--sort-order.json",
+          "sha256": "0407103fb7c900ce36d29887e3153127a5b5ded3f040a6b365418cb33485075c",
+          "size": 2666,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/blacklist.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--89589c67edda--blacklist.cfg",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/ingredient-list-mod-sort-order.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ad90cb938e8a--ingredient-list-mod-sort-order.ini",
+          "sha256": "454a775f71155e0affa02dac7287cf22ede0de930ac728ee24e0fe4616739900",
+          "size": 628,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/ingredient-list-type-sort-order.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--611d884b989f--ingredient-list-type-sort-order.ini",
+          "sha256": "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878",
+          "size": 74,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/jei-client.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--57a60c2a295f--jei-client.ini",
+          "sha256": "d5df4de03ae187ba459915993e04c1f035caf856a87e801ba3cd2cd578ce6ac8",
+          "size": 9811,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/jei-colors.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--734b09dcff07--jei-colors.ini",
+          "sha256": "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e",
+          "size": 1338,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/jei-debug.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c507d5830010--jei-debug.ini",
+          "sha256": "f889b595ed7314c04be73ac66dd993dcdf85ef55fd41d608ea005631b5482498",
+          "size": 794,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/jei-mod-id-format.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7db0352ca4e4--jei-mod-id-format.ini",
+          "sha256": "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3",
+          "size": 463,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/recipe-category-sort-order.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7d26234af498--recipe-category-sort-order.ini",
+          "sha256": "71009a990c1b588c71af888b1788742c6e8c6a292385c28ae66a73974472fb05",
+          "size": 356,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/world/server/Servidor de Minecraft (0_0_0_0)/bookmarks.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--052eed6b4dfd--bookmarks.ini",
+          "sha256": "a34ae107bc3bfa18be6235195a771088398eeeee3bd1fc545241ec5eaee0a36a",
+          "size": 44,
+          "kind": "config"
+        },
+        {
+          "path": "config/jei/world/server/Servidor de Minecraft (0_0_0_0)/lookupHistory.ini",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e4803b249b9c--lookupHistory.ini",
+          "sha256": "836ab11362a7229c725d9bec38dfe7a841b921a26cc7695321500b8052913f4e",
+          "size": 221,
+          "kind": "config"
+        },
+        {
+          "path": "config/kiwi-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1529137fd3f4--kiwi-client.toml",
+          "sha256": "29deaafaed6edd2e206e356464b8257a3aec9ac840e1ac239b9d72a7c1a74752",
+          "size": 189,
+          "kind": "config"
+        },
+        {
+          "path": "config/knocker.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--55fbb894c287--knocker.toml",
+          "sha256": "084e296eb99629b4c3774f11a144f117a7dcf1482853f033f25f1032a453b659",
+          "size": 296,
+          "kind": "config"
+        },
+        {
+          "path": "config/konkrete/locals/de_de.local",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--33f1f2d718f7--de_de.local",
+          "sha256": "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
+          "size": 369,
+          "kind": "config"
+        },
+        {
+          "path": "config/konkrete/locals/en_us.local",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--781a2f920e84--en_us.local",
+          "sha256": "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
+          "size": 426,
+          "kind": "config"
+        },
+        {
+          "path": "config/konkrete/locals/pl_pl.local",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0d3951b6dde3--pl_pl.local",
+          "sha256": "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
+          "size": 313,
+          "kind": "config"
+        },
+        {
+          "path": "config/konkrete/locals/pt_br.local",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a673c641ebf6--pt_br.local",
+          "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
+          "size": 322,
+          "kind": "config"
+        },
+        {
+          "path": "config/legendarytooltips-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--804fef077389--legendarytooltips-common.toml",
+          "sha256": "8683aa292f2fcb6d31dc66c477d57eec744e7faf82a6bad7d932baac7059e43a",
+          "size": 8112,
+          "kind": "config"
+        },
+        {
+          "path": "config/libraryferret_1.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a151d5351826--libraryferret_1.properties",
+          "sha256": "378baf99be11cb07f982d41ac1cf6fd55402f2969ae306c6dbec88cdea1af636",
+          "size": 193,
+          "kind": "config"
+        },
+        {
+          "path": "config/LightDistance.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5420be3ae087--LightDistance.toml",
+          "sha256": "25a3ad505dbf7645fc6a4f35b8f79a5ec007516da817becd5fe7b345825ef68e",
+          "size": 165,
+          "kind": "config"
+        },
+        {
+          "path": "config/lootr-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--85bb18aa82e5--lootr-client.toml",
+          "sha256": "4e37c085446f2a5be3a3cc4765ffc9657e71473245574c3e398c64fef07615a0",
+          "size": 243,
+          "kind": "config"
+        },
+        {
+          "path": "config/lootr-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9241634f2e05--lootr-common.toml",
+          "sha256": "26cd20aff80821b62457943763ceb3a182991df8195123d4fb389f1b94bd0d7a",
+          "size": 6327,
+          "kind": "config"
+        },
+        {
+          "path": "config/lucent-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bb8f77a42e10--lucent-client.toml",
+          "sha256": "f2ba780767786971d7b7e4af87fa3d625ee5cdd4982631ec40a36ff082a51b1e",
+          "size": 4478,
+          "kind": "config"
+        },
+        {
+          "path": "config/map_atlases-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e01ff518b5d4--map_atlases-client.toml",
+          "sha256": "a1cce38e2503210b572460dcaeeddc28a20f47f18d4a87a77675b06628808384",
+          "size": 4593,
+          "kind": "config"
+        },
+        {
+          "path": "config/map_atlases-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c2688513b9f4--map_atlases-common.toml",
+          "sha256": "ce68b8138adb076e21ccbccfe695cbf500441a8d6015d43baef4eadf0df567e0",
+          "size": 2040,
+          "kind": "config"
+        },
+        {
+          "path": "config/mining_helmet-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--751d824db19f--mining_helmet-client.toml",
+          "sha256": "c5c944b75b15f74d4959fc7786bac2506b953c577c2a10d44f97150068479f6e",
+          "size": 954,
+          "kind": "config"
+        },
+        {
+          "path": "config/mining_helmet-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0ce931094ae5--mining_helmet-common.toml",
+          "sha256": "ac03c65b6aeba3fba7a06ba0777607ab2e0ef96c15c7a1bef05d9a3e6c317daa",
+          "size": 196,
+          "kind": "config"
+        },
+        {
+          "path": "config/modernfix-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--159c1e2e0c91--modernfix-common.toml",
+          "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66",
+          "size": 107,
+          "kind": "config"
+        },
+        {
+          "path": "config/modernfix-mixins.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0f99be16af2d--modernfix-mixins.properties",
+          "sha256": "ed3434a4bf6cad29af99a165d78f3c87b7a396682b3efc63bbcfdb58b5316e4e",
+          "size": 5221,
+          "kind": "config"
+        },
+        {
+          "path": "config/MouseTweaks.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9812b4fa01ff--MouseTweaks.cfg",
+          "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+          "size": 135,
+          "kind": "config"
+        },
+        {
+          "path": "config/necronomicon.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--86b90e565df2--necronomicon.json5",
+          "sha256": "f97fc5ae7dd7d312e86ecddf2e4491fee3e3a16b7a26cbb3aa078fdd3255c4df",
+          "size": 266,
+          "kind": "config"
+        },
+        {
+          "path": "config/neruina.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3285f9ffab58--neruina.json",
+          "sha256": "29e73ae1075a5d9f61394a353e60ba84c5c801e511105f2400e0d4ba66a9bf76",
+          "size": 293,
+          "kind": "config"
+        },
+        {
+          "path": "config/notenoughanimations.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9fed1524d84d--notenoughanimations.json",
+          "sha256": "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4",
+          "size": 3357,
+          "kind": "config"
+        },
+        {
+          "path": "config/notenoughcrashes.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6570078e3f32--notenoughcrashes.json",
+          "sha256": "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf",
+          "size": 533,
+          "kind": "config"
+        },
+        {
+          "path": "config/Obscuria/Data/aquamirae_cover.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4d640ace2147--aquamirae_cover.png",
+          "sha256": "86bec2df159c61ba721a71c7c951450332e3581ce3c8268611c140558989d5b9",
+          "size": 137180,
+          "kind": "config"
+        },
+        {
+          "path": "config/Obscuria/Data/loot_journal_cover.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b6d36545e583--loot_journal_cover.png",
+          "sha256": "c516870f7eabb04f762e581df53a7c7330ec28c68f2245fb07885af71bd37830",
+          "size": 32741,
+          "kind": "config"
+        },
+        {
+          "path": "config/Obscuria/Data/obscure_api_cover.png",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bcad6cf71069--obscure_api_cover.png",
+          "sha256": "ecd943698913173d1513b8a300072557304e9c262eb8eaa012ba0a357a6a5ad1",
+          "size": 64456,
+          "kind": "config"
+        },
+        {
+          "path": "config/Obscuria/obscure-api-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b74eb161bab4--obscure-api-client.toml",
+          "sha256": "e0d31760a1d6c289ccfe89b7e6fac4e6e98e46635679f12e2c50ec5045d65c16",
+          "size": 148,
+          "kind": "config"
+        },
+        {
+          "path": "config/Obscuria/obscure-tooltips-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1180b988a715--obscure-tooltips-client.toml",
+          "sha256": "a1e1d93ddb0c9bbc222c685787023217374569f04cfb2740c6a5275055cbc40e",
+          "size": 340,
+          "kind": "config"
+        },
+        {
+          "path": "config/obsessed_configurations.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7d91b2bcf65a--obsessed_configurations.toml",
+          "sha256": "e8be7dc4d240fefd2822953e6f8ddad08ccf7d90c513dc3ddb240ff12e1cba00",
+          "size": 4407,
+          "kind": "config"
+        },
+        {
+          "path": "config/oculus.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4e6fa1dea44e--oculus.properties",
+          "sha256": "bd7f2dda2462b3419d2a0592f64b127fb7dd97a8151d3fe529acb1aa3d565e11",
+          "size": 288,
+          "kind": "config"
+        },
+        {
+          "path": "config/okzoomer-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--87f3fb44b893--okzoomer-client.toml",
+          "sha256": "d0b7763e135cbba21d71c339253562b04460e4b42f599aa4a05f33cd06c9169d",
+          "size": 3432,
+          "kind": "config"
+        },
+        {
+          "path": "config/passablefoliage-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dbb34f1d990f--passablefoliage-common.toml",
+          "sha256": "b74ab64d3b62167b1fa0f49202365e1c8048ffae5ff35f48c47fffbaffa279c5",
+          "size": 282,
+          "kind": "config"
+        },
+        {
+          "path": "config/patchouli-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--17703de5610f--patchouli-client.toml",
+          "sha256": "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068",
+          "size": 1091,
+          "kind": "config"
+        },
+        {
+          "path": "config/pehkui-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6bdcc173d74b--pehkui-client.toml",
+          "sha256": "18741b2cf056e7609eac3dabe966569a12a819ab03e083c873c85c27a52929a7",
+          "size": 138,
+          "kind": "config"
+        },
+        {
+          "path": "config/pehkui-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--606289fabf3d--pehkui-common.toml",
+          "sha256": "8a4afcf7a631191fbe6a1416b4d16f55584deb22dd90ec7ec337fdf444a92ba7",
+          "size": 407,
+          "kind": "config"
+        },
+        {
+          "path": "config/placebo.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bb420c3b744c--placebo.cfg",
+          "sha256": "b38269d3fa35f0467ac05b779812c94b10010e68a89a38d532cd1640a0d7faea",
+          "size": 326,
+          "kind": "config"
+        },
+        {
+          "path": "config/presencefootsteps/userconfig.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d8cafb6fbb8d--userconfig.json",
+          "sha256": "558417ea55258432623b65465dc29f3269c43777659adcec4da951894b49f786",
+          "size": 194,
+          "kind": "config"
+        },
+        {
+          "path": "config/proximitytextchat-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a1dd7719ff47--proximitytextchat-common.toml",
+          "sha256": "db6391a9f248b848e7343e2c78dbe2a4d80e34927f943b6675636277c9abe623",
+          "size": 479,
+          "kind": "config"
+        },
+        {
+          "path": "config/quark-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4ed7b2cf326a--quark-common.toml",
+          "sha256": "2f34cb2ce393f69fbf2083b76b9bbb33948b992797971ec516a236e7796f38f7",
+          "size": 76451,
+          "kind": "config"
+        },
+        {
+          "path": "config/reforgium-renderer.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d5c59d8f7719--reforgium-renderer.properties",
+          "sha256": "02d40ec68a1b4dcc032fc052dc5f21326004c08a80d7707f3f18ec8896af240b",
+          "size": 153,
+          "kind": "config"
+        },
+        {
+          "path": "config/RemoveMouseoverHighlight-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--463e56543efc--RemoveMouseoverHighlight-client.toml",
+          "sha256": "848696a19d3f1acda855d6406be294cd28129c05d559e9b0d1cc483c5d3ad2d1",
+          "size": 226,
+          "kind": "config"
+        },
+        {
+          "path": "config/rocks-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e9bcff0161a4--rocks-common.toml",
+          "sha256": "b5edac321d2065ecde93323380dd617ab8d3618eaf5c55c25fdf5828e1f8c054",
+          "size": 254,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/collapsible.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cae2a91df7d3--collapsible.json5",
+          "sha256": "a59667baa54738c1b294393a9b3652bcf7d392cdb8cba1c08a8006885b18e919",
+          "size": 46,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/config.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--63495560c38e--config.json5",
+          "sha256": "c7e143452b43c87bf0b3248ccf3d2e132fd93d42fbe5103bc24ad43a8a2620e2",
+          "size": 6538,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/favorites.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dfbacde59998--favorites.json5",
+          "sha256": "589c13e9ebbb9ae1b868d73be8c4e30323dcb03efacf59d75b9d614f1b069b47",
+          "size": 61,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/hints.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--fa4e60182c07--hints.json",
+          "sha256": "5fb704131fbddc5d1633321db0cead6131d54040c925a5882e7d192448cea216",
+          "size": 59,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/pinyin.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--057f64404cb6--pinyin.properties",
+          "sha256": "62074e4c09584694435b907ce5ed0b0e8795740d706c9433d0ed1cad491b068c",
+          "size": 48,
+          "kind": "config"
+        },
+        {
+          "path": "config/roughlyenoughitems/pinyin_double.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5fc438b45824--pinyin_double.properties",
+          "sha256": "85188cc0ee4330ddc242f9a088fb804c01a9f6ff593af38a3d72f83b0d80c771",
+          "size": 73,
+          "kind": "config"
+        },
+        {
+          "path": "config/rubidium-mixins.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ea32924545aa--rubidium-mixins.properties",
+          "sha256": "66bbef3dd895941e28db52d85ef5e8a1ecda6dc26377a47ff6dc623ece2f73fa",
+          "size": 268,
+          "kind": "config"
+        },
+        {
+          "path": "config/rubidium-options.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--23be28923beb--rubidium-options.json",
+          "sha256": "ad91fda3c4603706b772310bb3de10ff182f0e2fed7a7d94fb4e172c379e0f51",
+          "size": 697,
+          "kind": "config"
+        },
+        {
+          "path": "config/saturn-optimizations.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--47d07ebb89a2--saturn-optimizations.toml",
+          "sha256": "47019e25dcb00d2d1da22d725095dc39bcbbf10cdfb8429d8d5a97b231a272b3",
+          "size": 445,
+          "kind": "config"
+        },
+        {
+          "path": "config/shouldersurfing-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1f96b302da0f--shouldersurfing-client.toml",
+          "sha256": "ad5410ace1abceca1b2be5ac3daf277779e50916bfbdb3ce6569400d8f994e59",
+          "size": 16830,
+          "kind": "config"
+        },
+        {
+          "path": "config/signal_flares.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cc6f1a93edcb--signal_flares.toml",
+          "sha256": "0a3d4817e89c6d4589fcab4b5484be88784a1476be93538bb341851c0581e0d7",
+          "size": 713,
+          "kind": "config"
+        },
+        {
+          "path": "config/SittingPlusConfig.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dc0950a6795e--SittingPlusConfig.json",
+          "sha256": "8de3a0f0b4d7b17757fed8f1338909b0cb6cdf851604616a5698c36f95011e1d",
+          "size": 157,
+          "kind": "config"
+        },
+        {
+          "path": "config/skinlayers.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--445e710c4b9d--skinlayers.json",
+          "sha256": "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166",
+          "size": 497,
+          "kind": "config"
+        },
+        {
+          "path": "config/snowrealmagic-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--65824904cf76--snowrealmagic-client.toml",
+          "sha256": "8847b2cc97e3f7eac4ec59333ac2e7a24cb70d081e5f53cf7ba06a41e37db96c",
+          "size": 49,
+          "kind": "config"
+        },
+        {
+          "path": "config/snowrealmagic-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3e225961ed93--snowrealmagic-common.toml",
+          "sha256": "e59072dc3bc8bda8ca8eff856f32046aba7c391be7d5b3e6b067c06e95d4597e",
+          "size": 615,
+          "kind": "config"
+        },
+        {
+          "path": "config/sodium-extra-options.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--94ed66d870ec--sodium-extra-options.json",
+          "sha256": "28861af3bf8cbe5d2a33ec23d933788b3b1d80de11b324c1bb25ef0ab95fe056",
+          "size": 1705,
+          "kind": "config"
+        },
+        {
+          "path": "config/sodium-extra.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c3e3b6c9f798--sodium-extra.properties",
+          "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+          "size": 360,
+          "kind": "config"
+        },
+        {
+          "path": "config/sophisticatedbackpacks-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b67253ce18c3--sophisticatedbackpacks-common.toml",
+          "sha256": "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506",
+          "size": 122,
+          "kind": "config"
+        },
+        {
+          "path": "config/sophisticatedcore-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3790bb5c0911--sophisticatedcore-client.toml",
+          "sha256": "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36",
+          "size": 351,
+          "kind": "config"
+        },
+        {
+          "path": "config/sophisticatedcore-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--284a4535000d--sophisticatedcore-common.toml",
+          "sha256": "898ab8f0d86ce5178a1a85276f3b7ca495042e055e396a1a775ae0df14e895b2",
+          "size": 2554,
+          "kind": "config"
+        },
+        {
+          "path": "config/sound_physics_remastered/allowed_sounds.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--29119ec21474--allowed_sounds.properties",
+          "sha256": "3d15d9a38a761754920cba1d2275f9d42284763ac8d8af84df39c98be3b24313",
+          "size": 80925,
+          "kind": "config"
+        },
+        {
+          "path": "config/sound_physics_remastered/occlusion.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7df44a71ac55--occlusion.properties",
+          "sha256": "b51735dd2baa415b5563bcaf91f3510415beb04f39083f5da8a50fe1bfbb9cd6",
+          "size": 4053,
+          "kind": "config"
+        },
+        {
+          "path": "config/sound_physics_remastered/reflectivity.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bf635c15375b--reflectivity.properties",
+          "sha256": "72e00d4300fa028b27bb77a755bead4691cf0a6bd54992dfa001a1e9a8de0ea4",
+          "size": 3935,
+          "kind": "config"
+        },
+        {
+          "path": "config/sound_physics_remastered/soundphysics.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--fb56ac0afae6--soundphysics.properties",
+          "sha256": "c9e79968413b6d27a548872869c347d8006b29878cb05210c9b24b4be5efe45a",
+          "size": 4908,
+          "kind": "config"
+        },
+        {
+          "path": "config/sparsetructuresreforged.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b325de423c75--sparsetructuresreforged.json",
+          "sha256": "840ad6c1fb52c5e4755d45664830e752de2c39101d0f5bdb1fa957a73f95441f",
+          "size": 62,
+          "kind": "config"
+        },
+        {
+          "path": "config/sprvlln/steves_blood_particles.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ebaedd201806--steves_blood_particles.json",
+          "sha256": "41afdc0356d941c2256f131aa4afc2b8f48f38058a03fab8a8808eb360c28180",
+          "size": 1455,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/descriptions/Archer.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--56b047ee7b73--Archer.txt",
+          "sha256": "2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64",
+          "size": 57,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/descriptions/Default.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--522f30dede79--Default.txt",
+          "sha256": "19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324",
+          "size": 125,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/descriptions/Lumberjack.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f8853db17ac3--Lumberjack.txt",
+          "sha256": "5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a",
+          "size": 52,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/descriptions/Witch.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--85d92544c274--Witch.txt",
+          "sha256": "290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65",
+          "size": 52,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/kits/Default.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bb086cc6f2ea--Default.txt",
+          "sha256": "7ef15dda287a37b866a4dbf58964aa5404b73bfbbbc06c8e9aac1ffe7352ad10",
+          "size": 626,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/kits/inactive/Archer.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--446c14fa73ab--Archer.txt",
+          "sha256": "2d33c0b751d94e542b0ccecf3709e4872b6097d8e450b8336d78f5bfdce38306",
+          "size": 722,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/kits/inactive/Lumberjack.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a22320a17f5c--Lumberjack.txt",
+          "sha256": "2f481c3b16599f5563ae0ad9f932a5ce5929d2ffce51cd6c67adc3b93694541c",
+          "size": 678,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit/kits/inactive/Witch.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c56ea9fa9763--Witch.txt",
+          "sha256": "61484d5a235b04746cbdeca240501354f6ac39badce199ec7ed90865640e6471",
+          "size": 953,
+          "kind": "config"
+        },
+        {
+          "path": "config/starterkit.json5",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--96f784428175--starterkit.json5",
+          "sha256": "18c81c65c991801a3335ee10b63fb9db04b70decc17960263eed54e198f0a35c",
+          "size": 1376,
+          "kind": "config"
+        },
+        {
+          "path": "config/structure_gel-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--89b391109467--structure_gel-client.toml",
+          "sha256": "8402c19db801081e307a7b0537f5bab5240328c7f502c76fd0f247a349c062b0",
+          "size": 141,
+          "kind": "config"
+        },
+        {
+          "path": "config/structure_gel-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ad34b0de5695--structure_gel-common.toml",
+          "sha256": "ee8596667284c92852895fa74bdd5454f7ddd2e733e8deb372f48c21de454812",
+          "size": 878,
+          "kind": "config"
+        },
+        {
+          "path": "config/supplementaries-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c94f4c6dc149--supplementaries-client.toml",
+          "sha256": "99fd3a93f9b4c81e9fd4243d2c932f4bca2cf9bb9d3f9dce8dd22c8b1d8f4a6d",
+          "size": 8775,
+          "kind": "config"
+        },
+        {
+          "path": "config/supplementaries-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ee6c89a97529--supplementaries-common.toml",
+          "sha256": "290736900dec74d04690b93efacf68f3f797f716401175b8c1d072d73dc89e41",
+          "size": 20241,
+          "kind": "config"
+        },
+        {
+          "path": "config/terrablender.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a85c34497fb6--terrablender.toml",
+          "sha256": "59d79e8bc4a42e678196a7164e5841a9803f8684f1b52b9944ce554c9f353691",
+          "size": 552,
+          "kind": "config"
+        },
+        {
+          "path": "config/The Boy And The Bath spawnrate.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--62d1bf51589f--The_Boy_And_The_Bath_spawnrate.toml",
+          "sha256": "0b322acb2343de10b8868ee855083e2b88f4336aeb1751d2a070425d3c387bb7",
+          "size": 885,
+          "kind": "config"
+        },
+        {
+          "path": "config/TMFTSconfig.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3666e043da57--TMFTSconfig.toml",
+          "sha256": "40b43518975496a54118b32aa40ad62e9a3c9ecefd3be85cc6b1c8bb0c884bac",
+          "size": 3779,
+          "kind": "config"
+        },
+        {
+          "path": "config/transition.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5f6c74e4b626--transition.json",
+          "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+          "size": 97,
+          "kind": "config"
+        },
+        {
+          "path": "config/trender.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a643af431b01--trender.json",
+          "sha256": "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2",
+          "size": 44,
+          "kind": "config"
+        },
+        {
+          "path": "config/unionlib-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--883da4f8d50b--unionlib-client.toml",
+          "sha256": "9bbd4eb21960d087898d142c3c49f708b2e26a8a4af7eeb02cfbf5ce00b506d8",
+          "size": 920,
+          "kind": "config"
+        },
+        {
+          "path": "config/unionlib-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0e85cc108080--unionlib-common.toml",
+          "sha256": "848c947fd0c5c05d9af5f72ff886cde2c4c724c340d71bb537f2b5f0667df428",
+          "size": 556,
+          "kind": "config"
+        },
+        {
+          "path": "config/unionlib-server.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--979f9e35251f--unionlib-server.toml",
+          "sha256": "a2c7c8e678d4437c3fe94be969720457f15dbe12d7beeba90c55942f0d18cecb",
+          "size": 570,
+          "kind": "config"
+        },
+        {
+          "path": "config/visualworkbench-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ab9052b4fab6--visualworkbench-client.toml",
+          "sha256": "7b7e6c6f3c11bcb6babe562653fd2ad544d115c4141edf889d4feda73f9a2564",
+          "size": 215,
+          "kind": "config"
+        },
+        {
+          "path": "config/visual_workbench.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8cee61e56f61--visual_workbench.json",
+          "sha256": "fda5ed7c50fc65cc2047bca6649a6ffd59ddd64fcec5d6156ac48096ef159451",
+          "size": 10600,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/category-volumes.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f71c27058766--category-volumes.properties",
+          "sha256": "94c1c4f70e5b995fbd71e86d4fa646030437fecae0685875b560a55fbd0d0e56",
+          "size": 46,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/player-volumes.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--93b96093776f--player-volumes.properties",
+          "sha256": "945c0e5cf8620acc0cc2dd297867e66bcb0a35af7cee087c4623af0124f04703",
+          "size": 132,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/translations.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b4cdaacb5713--translations.properties",
+          "sha256": "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1",
+          "size": 1182,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/username-cache.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ed5cc153d282--username-cache.json",
+          "sha256": "c5b14b55c3e785adf1338ac3dc06ee6dd2296e12dd02497ad64fe672b6f49d80",
+          "size": 102,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/voicechat-client.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e4010e621e29--voicechat-client.properties",
+          "sha256": "25f2efdc289f84c392ca1085f4bc791f75a16fdf68918a3ebcab275141c46f92",
+          "size": 5233,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat/voicechat-server.properties",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--78327e1b782b--voicechat-server.properties",
+          "sha256": "31c0a72ab30b4821a1447baf05cff358beab30e94e1a480a37bb6767a97203b0",
+          "size": 3072,
+          "kind": "config"
+        },
+        {
+          "path": "config/voicechat-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b01b521f49b9--voicechat-client.toml",
+          "sha256": "24a7b91377e08d0d8bc2805793c8150d473241aa816cbaa6fca9d254aa537ca5",
+          "size": 94,
+          "kind": "config"
+        },
+        {
+          "path": "config/voidfog-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3aad46445839--voidfog-client.toml",
+          "sha256": "135b235b859cd85e3dcd514ce6f8b69cd132a5245d35569be0c7221ac74a043e",
+          "size": 186,
+          "kind": "config"
+        },
+        {
+          "path": "config/WatchDogAC/player_cheating_log.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--58b697ed4a72--player_cheating_log.txt",
+          "sha256": "15c93fabffb896cfaffe4f9812ded7af75ef7f18d96ca53215744075957e87ba",
+          "size": 1892,
+          "kind": "config"
+        },
+        {
+          "path": "config/WatchDogAC/watchdog-anticheat-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--505fa83930b4--watchdog-anticheat-client.toml",
+          "sha256": "4e96c2605598c976584733c3ff1fbed1151f8e3377e5bf11249c683f65f6d088",
+          "size": 167,
+          "kind": "config"
+        },
+        {
+          "path": "config/WatchDogAC/watchdog-anticheat-server.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7401b2877d21--watchdog-anticheat-server.toml",
+          "sha256": "fd85afd3eb98d9ec92d57de5c4c3edcbc8b08aa96f776c8006dadda5a5068832",
+          "size": 1858,
+          "kind": "config"
+        },
+        {
+          "path": "config/waterconfig.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1a20145b11a3--waterconfig.toml",
+          "sha256": "e5806ca350b26f9c299c7b75728f3f9c0664c286470daa027e4ce547097b90a5",
+          "size": 677,
+          "kind": "config"
+        },
+        {
+          "path": "config/watermedia.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2cc9ce666566--watermedia.toml",
+          "sha256": "7826bfd3bb335d0a87f109f8dedda71c3ddba4838b6e720d90eb3db9ccc5ac85",
+          "size": 8017,
+          "kind": "config"
+        },
+        {
+          "path": "config/watut-client.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bf6335ee382c--watut-client.toml",
+          "sha256": "f0fda3f30f0a2793e9efcddb6670455ee8dcff7e5f6df7961fe5e634a80f08f0",
+          "size": 525,
+          "kind": "config"
+        },
+        {
+          "path": "config/watut-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e8dcf21b60ad--watut-common.toml",
+          "sha256": "b37272f50907bd98b1f9379ac46d079699f0b220d56fae38d34621d4e7b5953d",
+          "size": 144,
+          "kind": "config"
+        },
+        {
+          "path": "config/waveycapes.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e2e548478342--waveycapes.json",
+          "sha256": "1da99d26f48e54631db80aecf731bd0e107a4e6e92db46964491bf0bb104f13e",
+          "size": 212,
+          "kind": "config"
+        },
+        {
+          "path": "config/waystones-common.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d899b90f3ed6--waystones-common.toml",
+          "sha256": "73992ff5a806f9f29446d23cdd47a6b637a2688874584310bef97c34f675cf5d",
+          "size": 7912,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/lib/client.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ad85b5593efa--client.cfg",
+          "sha256": "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336",
+          "size": 26,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/lib/common.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1ec5e99ecc28--common.cfg",
+          "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2",
+          "size": 236,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/lib/profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--72803f603178--default.cfg",
+          "sha256": "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907",
+          "size": 121,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/lib/server_profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--23ab8a235ee8--default.cfg",
+          "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+          "size": 75,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/client.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e309abda0c46--client.cfg",
+          "sha256": "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f",
+          "size": 235,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/common.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ccc164297be1--common.cfg",
+          "sha256": "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0",
+          "size": 147,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/default_radar_categories_client.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bd1772a0f338--default_radar_categories_client.json",
+          "sha256": "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774",
+          "size": 5531,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/default_radar_categories_server.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d0d869b80c10--default_radar_categories_server.json",
+          "sha256": "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd",
+          "size": 4597,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bf19e3e9bc80--default.cfg",
+          "sha256": "6f55fe0a67c81ce5ad5c0611bb89340e423576e447c7dcbda9b436b33fb86766",
+          "size": 3923,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8f0bff594cd3--default.cfg.json",
+          "sha256": "b54c6eedcb752d1235c6ea60dc365d4d1621c4c80768faaac4347e76d4e10a13",
+          "size": 5531,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--89e1985c6c39--default.cfg.txt",
+          "sha256": "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6",
+          "size": 684,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/minimap/server_profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a296d18ef6a5--default.cfg",
+          "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+          "size": 75,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/world-map/client.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b0819af10579--client.cfg",
+          "sha256": "8f73b810f5d45a9f1a4fc36d76185e76e3059914b4ac0c0403bf85924c3f7558",
+          "size": 523,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/world-map/common.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--04698b830695--common.cfg",
+          "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d",
+          "size": 141,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/world-map/profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f61dc09ec9ef--default.cfg",
+          "sha256": "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf",
+          "size": 1619,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaero/world-map/server_profiles/default.cfg",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cbea4fadbb15--default.cfg",
+          "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+          "size": 75,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaerohud.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ec59b462eaf3--xaerohud.txt",
+          "sha256": "dfafe02f18c2517394828b31443ecfd1e0b5c43470dcb5863facbba6fd9fe233",
+          "size": 126,
+          "kind": "config"
+        },
+        {
+          "path": "config/xaeropatreon.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2f8a3d077dd1--xaeropatreon.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "kind": "config"
+        },
+        {
+          "path": "config/zombieawareness/ClientConfig.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a36de6eb0b3d--ClientConfig.toml",
+          "sha256": "159ca0c651a10c34dc82f6b8ab4f9f07785a8ec3ca7a3a9330f21fcce439fc91",
+          "size": 111,
+          "kind": "config"
+        },
+        {
+          "path": "config/zombieawareness/Features.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--abc02ecea9ed--Features.toml",
+          "sha256": "ba6a839a58b20c6570ef40c2cef85efcc44d8e52c400039d76685beb0e593f22",
+          "size": 1322,
+          "kind": "config"
+        },
+        {
+          "path": "config/zombieawareness/General.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6192c3de2620--General.toml",
+          "sha256": "c43b6e5f6df1f92cbfc15298c0cb16d697edb0c1303e3c312c0e407ac9604c66",
+          "size": 2650,
+          "kind": "config"
+        },
+        {
+          "path": "config/zombieawareness/MobLists.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3e6e2cf5a8a7--MobLists.toml",
+          "sha256": "296f9d82937f5caf307088a799f38b44764a839604534be0789814e791638241",
+          "size": 241,
+          "kind": "config"
+        },
+        {
+          "path": "config/zombieawareness/PlayerRulesAndLists.toml",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--552982102710--PlayerRulesAndLists.toml",
+          "sha256": "e766740f523b7da0d0cdc9db47f6e69c16489509c6b5e1eee63742c295f5f508",
+          "size": 412,
+          "kind": "config"
+        },
+        {
+          "path": "mods/AmbientSounds_FORGE_v5.3.9_mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f962c9ed9400--AmbientSounds_FORGE_v5.3.9_mc1.19.2.jar",
+          "sha256": "257d29cdcbef4c1d45c4f337af4f9f537dd8ca5ad9bb20fcc19f5fc1652b8f65",
+          "size": 84253098,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/anomaly_rephased-2.0.0b30.1-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--978d6c1acc2e--anomaly_rephased-2.0.0b30.1-forge-1.19.2.jar",
+          "sha256": "8ed04dbf313000f1346de2796c2ae36eeffd568c7b9077f56e8121cd735bb2da",
+          "size": 2867315,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/anotherflashlightmod-1.0.4-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--243f7d517031--anotherflashlightmod-1.0.4-forge-1.19.2.jar",
+          "sha256": "24742ec1f48fbc68c9af72d515c6b1b7a9e05a5a8d3a013d1e0016b9299d3406",
+          "size": 117181,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/antlers-1.0.0-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--077f593c9f9a--antlers-1.0.0-1.19.2.jar",
+          "sha256": "fd658d1fb229ab33ce9883bec8342f496418faa0df74d8e3bb72f9c1ee02c714",
+          "size": 8953420,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Apollyon-1.1.1-final.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cd65f801b077--Apollyon-1.1.1-final.jar",
+          "sha256": "139c3869d41ac52028bafb320eeb30f44fce8c0485050954f51ec21cce529eb1",
+          "size": 9915230,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/appleskin-forge-mc1.19-2.4.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--54bc4a946d31--appleskin-forge-mc1.19-2.4.2.jar",
+          "sha256": "3a7c90665e5324ea5b5493862afa1655965bb1876d21f387a6f7283b43bb696e",
+          "size": 46991,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/architectury-6.6.92-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e1bf001cdc28--architectury-6.6.92-forge.jar",
+          "sha256": "61c2482c0bfaa8a917f042edd7b8d73107005602115bcdbb4638ec817dd56fa7",
+          "size": 559099,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/assimilatorV1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3fdcb296611d--assimilatorV1.jar",
+          "sha256": "9633e5cc2a196c3e5b858241f0cd72aef1859139f6c7490cb26d44b33b1d366e",
+          "size": 4047251,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/AutoRegLib-1.8.2-55.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f37cb07e01d8--AutoRegLib-1.8.2-55.jar",
+          "sha256": "a6e61dd9ba08d375146cf850d3c8c30f6478c9c898fda7245a507732368fd377",
+          "size": 45741,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/a_good_place-1.19-1.1.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d837dcca6b4d--a_good_place-1.19-1.1.0.jar",
+          "sha256": "6d178edbea1d51c2288f722db3af0b1a12fa25a5e0f2efc89b2e39f2dcc057b7",
+          "size": 433901,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/BadMobs-1.19.2-16.1.3.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ee6846863784--BadMobs-1.19.2-16.1.3.jar",
+          "sha256": "6e16281c35b521df034570d6652d723b0bf52aed40e55632dbdb23bc70fbd735",
+          "size": 9680,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/balm-forge-1.19.2-4.6.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--56cd3a4212c3--balm-forge-1.19.2-4.6.0.jar",
+          "sha256": "b35e87c6a8c5f0053afe2a5006072e9322e8747d4e980580cb1de34ca4b926c2",
+          "size": 314084,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/benched-1.2.2a-forge-mc1.19.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--df9b344d0d4c--benched-1.2.2a-forge-mc1.19.jar",
+          "sha256": "6a86457e1688fe4249f808c95319d9efa2f55d651b56a03055f5aaca326331c3",
+          "size": 4231552,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Better Cave Dweller-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--20c4b0f6adfa--Better_Cave_Dweller-1.19.2.jar",
+          "sha256": "5de62912e3097ed30506f1d60b2503f571f0675dbdc7197ce68c084ddbd4872e",
+          "size": 1927868,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/betterfoliage-4.0.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a05b583b702a--betterfoliage-4.0.6.jar",
+          "sha256": "9221b57ddcab10ea3664ed98808beacb3cc4436aad413706169130a7228cb8f6",
+          "size": 276384,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/betterfpsdist-1.19.2-4.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5abdc81f3b04--betterfpsdist-1.19.2-4.1.jar",
+          "sha256": "822ccda161cd7ce46eb1f6b191135f8fef2b041dbbbfd4999fc6b6fbc53e3189",
+          "size": 17012,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/bettervillage-forge-1.19.2-3.3.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8cbde6e6b92f--bettervillage-forge-1.19.2-3.3.1.jar",
+          "sha256": "f7a6fc7ffbc1125d75e645cec2efb76825feeae16437db952d42339885ffeea4",
+          "size": 2607376,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/biomemusic-1.19.2-2.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9bcb57b272ab--biomemusic-1.19.2-2.2.jar",
+          "sha256": "d958f6019aaabfc7d73d57c3dc398342027165ef303c263087a28f961a5e2401",
+          "size": 19555,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/BiomesOPlenty-1.19.2-17.1.2.544.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--247893c6b367--BiomesOPlenty-1.19.2-17.1.2.544.jar",
+          "sha256": "aca24ab5fdef2529da5d1b56ebc19f297321ddb1091d4f3873e8b65381ce653c",
+          "size": 21401992,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/black_mold-1.19.2 NEW MODEL.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cc803cba9a33--black_mold-1.19.2_NEW_MODEL.jar",
+          "sha256": "f6a275079b29b17c5764418ac63ad086bd30b5c6e25dcc6dbf3b045d5d89c4e9",
+          "size": 1705105,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Blood  Guts Fix 1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--db3728d66726--Blood__Guts_Fix_1.19.2.jar",
+          "sha256": "f99c42e0ed65eef71f9ae0a669b96630a97a63f86b007594868d3e74603689d0",
+          "size": 149865,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/bloodybits-1.2.1-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8a1f3bc54e6b--bloodybits-1.2.1-1.19.2.jar",
+          "sha256": "061382399639a2a0e2c44e0174c4cdf90b77dd5a3cb93f92fe5343f5ffd77e31",
+          "size": 131653,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/blur-forge-3.1.1+mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1d411d767090--blur-forge-3.1.1_mc1.19.2.jar",
+          "sha256": "afeb6d8fa4bd3b70e839af4e09aa669132b1b55d69ee2a0e98097647116ff933",
+          "size": 67526,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/BOH_0.0.2.5.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d75aa9e9b01f--BOH_0.0.2.5.jar",
+          "sha256": "c0e05c7091b39e5566afddcd3e0459806626963ba528121091a483915b2e0b33",
+          "size": 8611904,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/BorderlessWindow-1.19.1-1.5.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7a739d1df231--BorderlessWindow-1.19.1-1.5.2.jar",
+          "sha256": "dba29b5981e34016515fc7702edf67e04168992860f34836904405ff5ddb08a5",
+          "size": 44144,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/born_in_chaos_[Forge]1.19.2_1.10.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ae327fea5ced--born_in_chaos__Forge_1.19.2_1.10.1.jar",
+          "sha256": "2cf5e8052231b3654e99d934489d8e34bef81a9f75f3094ef8459fea6dfde3f0",
+          "size": 10265127,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CameraOverhaul-v2.1.1-forge+mc[1.19-1.19.2].jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e810d12bb61b--CameraOverhaul-v2.1.1-forge_mc_1.19-1.19.2_.jar",
+          "sha256": "5c0459e99ee27f34f0bdd74ac516e274009922b45ffaa878dc901ca2b31bc179",
+          "size": 745197,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/cant_breathe-1.19.2-2.0.7.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--899f75551d11--cant_breathe-1.19.2-2.0.7.jar",
+          "sha256": "a6262a0741fe7045123876f64f1aab65c0fead62c70e5198e98b83414dccfa21",
+          "size": 2450010,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/carryon-forge-1.19.2-2.1.2.23.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d61debce6b2a--carryon-forge-1.19.2-2.1.2.23.jar",
+          "sha256": "59e6e1cba7df6f5480745e8a44a54e2b07645c05025d673cdc1af32ba08a5d03",
+          "size": 440569,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/ClaimChunk-1.19-1.0.17.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d95c813f486e--ClaimChunk-1.19-1.0.17.jar",
+          "sha256": "ac2f629a0e06b22fe2b2a9585371fd071e8327435e96d470e8fcf597091ec9a8",
+          "size": 133774,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/cloth-config-8.3.134-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--86a953288daf--cloth-config-8.3.134-forge.jar",
+          "sha256": "350519f45e3b477b0255342e33952cdb55ccdc2485ffafdd100a3cd716dcf68a",
+          "size": 1176412,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/collective-1.19.2-7.64.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5820011b57da--collective-1.19.2-7.64.jar",
+          "sha256": "9e9176b6b54cb5186e9095613bf3e95a47c6827711f4205a6e20820e8bc2bc1d",
+          "size": 618144,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/configuration-forge-1.19.2-2.2.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4df1d9c2dace--configuration-forge-1.19.2-2.2.1.jar",
+          "sha256": "f8020b8bef95df1771eab91247e205a40cd227d929e2e4cb4eaaebe15f74522e",
+          "size": 233354,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CorgiLib-forge-1.19.2-1.0.0.34.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--022aa4a55f76--CorgiLib-forge-1.19.2-1.0.0.34.jar",
+          "sha256": "47e89d59aa28b49239d0f5d18b8532527eb487fd99d2b49bca3e2fd129e676ea",
+          "size": 285958,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/coroutil-forge-1.19.2-1.3.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d0fce21b6591--coroutil-forge-1.19.2-1.3.6.jar",
+          "sha256": "96b7e5854a24b56cbe68c163ee9db2fc84cff0acd27f0da05951fea37da0b4f0",
+          "size": 61734,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/corpse-forge-1.19.2-1.0.17.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1643f7cda08c--corpse-forge-1.19.2-1.0.17.jar",
+          "sha256": "59bf5b26ce8f946c41e213507f471ffb239a89a3fffaf93c8017ff14975ee630",
+          "size": 242007,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Craftable Horse Armour  Saddle-1.19-1.9.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1c5a9fd171f2--Craftable_Horse_Armour__Saddle-1.19-1.9.jar",
+          "sha256": "9655347c4b5f721beab7ad15b71f1f89932e233dbf315f2f454d5bea2c7c8016",
+          "size": 37277,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CraftTweaker-forge-1.19.2-10.1.56.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--31538e4333f3--CraftTweaker-forge-1.19.2-10.1.56.jar",
+          "sha256": "08b13ff6198c0080b682b4bd3470f1e76a5983b8dfc5f484a39b8b37f1df76b9",
+          "size": 3044307,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/crashexploitfixer-forge-2.0.0+1.20.4-all-srg.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7f3a0be6203d--crashexploitfixer-forge-2.0.0_1.20.4-all-srg.jar",
+          "sha256": "3685a6eddebe66e25cabe0a96bdbe32031b0d3f21702ee9051d350c63833d09d",
+          "size": 1329029,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CreativeCore_FORGE_v2.11.28_mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ad7d80eee82a--CreativeCore_FORGE_v2.11.28_mc1.19.2.jar",
+          "sha256": "c9fe181e7d6180a1d89a5d9e933e35cbd184fa70683a104d4f776191bcc80fd5",
+          "size": 1116183,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CreepingWoods-forge-1.19.2-2.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4fb33839b166--CreepingWoods-forge-1.19.2-2.4.jar",
+          "sha256": "0b49d22b88182b056ee794e739522ec79168f05f7adc12225191e0e5a97e70ac",
+          "size": 9155450,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/CullLessLeaves-Reforged-1.0.5.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c5c2920b26b1--CullLessLeaves-Reforged-1.0.5.jar",
+          "sha256": "088bd1ed68bd1f5d1fe968bf20fba9b319cc6f15bb1d3b9cb92576dd36f83943",
+          "size": 18831,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/cupboard-1.19.2-2.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--303809720a56--cupboard-1.19.2-2.6.jar",
+          "sha256": "a825115faf3b33796aedef49328cb9316e0e62b68ea6b27a9dff1aa6a6038dfc",
+          "size": 24766,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/curios-forge-1.19.2-5.1.6.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d7d400f64036--curios-forge-1.19.2-5.1.6.4.jar",
+          "sha256": "1f7742d6c4f6b6cd8d106e54181255c2d264194ba232d42901ef90da6b91e635",
+          "size": 288916,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/DarkModeEverywhere-1.19.2-1.1.4cliente side.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d25adb230800--DarkModeEverywhere-1.19.2-1.1.4cliente_side.jar",
+          "sha256": "42f704bed3cbc6f80bcdc3125ddb2241728333902c316d8bf948d7d0d34ad420",
+          "size": 31448,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/darkness-forge-mc119-2.0.101.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--267d5fafe61c--darkness-forge-mc119-2.0.101.jar",
+          "sha256": "8c7c594b771f3ba23059f97e8d1696180f833d61b28af879e30cabe089d3906d",
+          "size": 29654,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/defaultoptions-forge-1.19-15.0.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7c3aee15c2aa--defaultoptions-forge-1.19-15.0.2.jar",
+          "sha256": "7f1a24055c7f6ae0a6e3a1813ba2fa3476b05569525abbe4f370b22ebfcd95a6",
+          "size": 86980,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/dungeons_plus-1.19.2-1.3.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--33bcfed1384d--dungeons_plus-1.19.2-1.3.1.jar",
+          "sha256": "ffe06aee709c60ab6b515fa17e1f7df5b043bc3755957333556f4e0559e29e2d",
+          "size": 1204646,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--195d0f23a3df--dynamiclightsreforged-1.19.2_v1.4.0.jar",
+          "sha256": "1a00b4728d60be3c76be956dbe5551224894abd0f668db6acca6edda328151a9",
+          "size": 90207,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/editmobdrops-1.19.2-1.4.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--fdfb20997e41--editmobdrops-1.19.2-1.4.1.jar",
+          "sha256": "b4fcb9c7f20e43d2ef222df5398151cd5c31ef90d21828704b576be0acbd593c",
+          "size": 12632,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/effective_fg-1.3.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--668ff759793c--effective_fg-1.3.4.jar",
+          "sha256": "f8ee05c457456a52a91751f9957994207baaf6eb6a5d839f949e5c9f362e0bf8",
+          "size": 742233,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/EnhancedVisuals_FORGE_v1.5.11_mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2fc25744844b--EnhancedVisuals_FORGE_v1.5.11_mc1.19.2.jar",
+          "sha256": "2c9cfd2739a7122d2d2ffa2ad4727e03f248997b80f343d6258ec39e348a060a",
+          "size": 4705488,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/entityculling-forge-1.6.1-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--99eea930b6ae--entityculling-forge-1.6.1-mc1.19.2.jar",
+          "sha256": "14686b41719756b50dd8d90e4d1754f752e5c370c99a280df00ecc64baf63534",
+          "size": 60289,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/entityculling-forge-1.6.1-mc1.19.2cliente side p.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2af673acae26--entityculling-forge-1.6.1-mc1.19.2cliente_side_p.jar",
+          "sha256": "14686b41719756b50dd8d90e4d1754f752e5c370c99a280df00ecc64baf63534",
+          "size": 60289,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/entity_model_features_forge_1.19.2-2.0.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a6e790da134e--entity_model_features_forge_1.19.2-2.0.2.jar",
+          "sha256": "de8852f577e62340eab34248067c61c5c66c47a857238455f935e68a5306d0f7",
+          "size": 381815,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/entity_texture_features_forge_1.19.2-6.0.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1fb24b091521--entity_texture_features_forge_1.19.2-6.0.1.jar",
+          "sha256": "bc3bfef0bf4a41da99832275eae121b9950aefcabf676e13f108961269e6b77e",
+          "size": 542503,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Epic Witch Huts v1.3.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1fc3c729f60b--Epic_Witch_Huts_v1.3.1.jar",
+          "sha256": "10969ae4e5a94c073dc3060e9af676cf194587ac588cbe1d01449f5b3b5cf749",
+          "size": 2200720,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/erosion-trails-forge-1.19.2-0.5.1-1.19.2-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ad735f4eea85--erosion-trails-forge-1.19.2-0.5.1-1.19.2-forge.jar",
+          "sha256": "015cc6d113bd84ae8d60c885ac2cd40dc672a019f6cd203fa4f9cbca7332280a",
+          "size": 41125,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Evoodooers-forge-1.19.2-1.0.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5e857e9c98fb--Evoodooers-forge-1.19.2-1.0.0.jar",
+          "sha256": "2e6720a9696b4a70937ccaa7990ceee9e103d0cc40726570f5686c5a82d4b725",
+          "size": 1753217,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/FallingTree-1.19.2-3.10.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d80e0011f958--FallingTree-1.19.2-3.10.1.jar",
+          "sha256": "9c9dfc59e8023a217eb996d0e959839e3f6c9bc118a71f10fbfc22a6c4fab836",
+          "size": 406121,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/fancymenu_forge_3.9.10_MC_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--60f26f04d398--fancymenu_forge_3.9.10_MC_1.19.2.jar",
+          "sha256": "e9eb172b8cef442dec9758cb8d03fc3deafe280906fb795c6516da69cf0a96b8",
+          "size": 28703880,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/FarmersDelight-1.19.2-1.2.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ae1704ce1793--FarmersDelight-1.19.2-1.2.4.jar",
+          "sha256": "a766849a5f61b9520c1c2aba86a9652a392c9e276faf5bb388b989bd65477f5f",
+          "size": 2769499,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/FarmersStructures-1.0.0-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--821830fd7a30--FarmersStructures-1.0.0-1.19.2.jar",
+          "sha256": "e7de2e71ade9a2c983d7546459107a975a17046e56488774ba941f9d06e1a1f3",
+          "size": 297109,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/FastLeafDecay-30.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7e9bb1254f46--FastLeafDecay-30.jar",
+          "sha256": "fab9ef7b1997b8e859e494dcbff78d0ba108e67ff8c0aec2aac5dbd4f26bc546",
+          "size": 11295,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/FazRoleplayClothes-1.19.2-1.6.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--198e0605184a--FazRoleplayClothes-1.19.2-1.6.2.jar",
+          "sha256": "95d6867f100a7c35e6670ed2ca080fe48322533cc4b8d0e403378596f80d559f",
+          "size": 503146,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Feather-To-String 1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--013bba351bcb--Feather-To-String_1.19.2.jar",
+          "sha256": "71aed78d43521e1b79b211a8973acd3cbd9ddf26f21fad238dd9d764993716a0",
+          "size": 5218,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/ferritecore-5.0.3-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--47b16960f351--ferritecore-5.0.3-forge.jar",
+          "sha256": "b9dc9b61a14e8326c6e464acef2851b9b08cf421880901a47a79c75fb6ab51e9",
+          "size": 116824,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/fragiletorches-1.19-1.0.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0f6103f6e797--fragiletorches-1.19-1.0.2.jar",
+          "sha256": "18d8143a7a3c194b957fed096a046e4da5eb13ac977abcfd2304046b001ce3d1",
+          "size": 12393,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--886eaee611bd--From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar",
+          "sha256": "371597e21faf59988b51f8e76084339fa36cc6eb5ea5db5bab886b60c69b5fbd",
+          "size": 10952682,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/geckolib-forge-1.19-3.1.40.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--484410b18ba6--geckolib-forge-1.19-3.1.40.jar",
+          "sha256": "b4fd4aba01943d4cc62bba9e2d0fb41d85c871a95fad972fbb2248d3d826ea02",
+          "size": 2938383,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/goprone-1.19-2.0.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7cf018c54282--goprone-1.19-2.0.4.jar",
+          "sha256": "de439bb153e681153995e0308e4fe750ec3d4f4828c045b13dde7385d95ce8fb",
+          "size": 207735,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/halloween_mood-1.0.10.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b0e28606809c--halloween_mood-1.0.10.jar",
+          "sha256": "dc370183ee69045d2a3c9d4d9ba7daac16a2473ec6aa466e56dcd0b481d2b19f",
+          "size": 2021765,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/hardcore_torches_forge-1.19-2.7.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--17e67b0137fd--hardcore_torches_forge-1.19-2.7.jar",
+          "sha256": "0717005cda88d19a87293458bc83e2aec384487cd446ec7ecc936acf70c48512",
+          "size": 154217,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/hauntedharvest-1.19.2-3.1.9.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9919ecec6660--hauntedharvest-1.19.2-3.1.9.jar",
+          "sha256": "27c822c6c90f45883c91350a7a2a3764c9904a0c8d8593c0545c3ce1acc52621",
+          "size": 530008,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/hexerei-0.3.3.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2ce499614593--hexerei-0.3.3.1.jar",
+          "sha256": "9178fbe53567b56c5e358fec03d856f5f9dd2f120be2c10f7c1c1ddf3a3a2b79",
+          "size": 9583038,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Horror_elements_mod_1.5.6_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4fd1dacfb680--Horror_elements_mod_1.5.6_1.19.2.jar",
+          "sha256": "a3e5be7a67eac462e6b92378176fcaeb3eec096ab1b6620face579fc62af7a67",
+          "size": 20845214,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Iceberg-1.19.2-forge-1.1.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--db1f0e3c187a--Iceberg-1.19.2-forge-1.1.4.jar",
+          "sha256": "b9c1ebdf11e7538761aa30f229fb6ce3890057a2af13f11be93c299da9125d1c",
+          "size": 109565,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/identity-2.6.1-1.19.1-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--77830e5c51ec--identity-2.6.1-1.19.1-forge.jar",
+          "sha256": "406a79b5f260d92e4503d4eff8aa9fe595b33a1db5d77449f833c699d5787581",
+          "size": 234552,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/integrated_api_forge-1.2.8+1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b585f253dbf7--integrated_api_forge-1.2.8_1.19.2.jar",
+          "sha256": "059800d1c8d7b6a58b44572869f78c915ad1b23cfc519c7e605fab42696f2bce",
+          "size": 212087,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/InvMove-0.9.3+1.19.4-Forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d477f22d5799--InvMove-0.9.3_1.19.4-Forge.jar",
+          "sha256": "607ae634da90637f207f85a5a5bf887a5fd0e3a41d14168422ba5c9221ed05d2",
+          "size": 270837,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Jade-1.19.1-forge-8.9.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ce619343c01c--Jade-1.19.1-forge-8.9.2.jar",
+          "sha256": "2c06173bae9074b11523ca9366db2b37431a90f6b65ce97a7820dac11aefca81",
+          "size": 429175,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/justverticalslabs-1.19.2-4.0.0.0-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cee61579f883--justverticalslabs-1.19.2-4.0.0.0-forge.jar",
+          "sha256": "3613fbbc4bb78d75b940b07df4f5aa08d91d3b388b70935ee65f856cdfaf11c8",
+          "size": 3093568,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Kiwi-1.19.2-forge-8.3.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--06bf33eebf38--Kiwi-1.19.2-forge-8.3.6.jar",
+          "sha256": "7667178051e13644a283817e3a501708a6716dffa255a73bb7424c3e52b9e44b",
+          "size": 422898,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--58b814b4d362--konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+          "sha256": "2c1902deb1587f28a35874b0e9c4a367111ebb3ea7e39838dd0050b37b483832",
+          "size": 628963,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/LegendaryTooltips-1.19.2-forge-1.4.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7a1ffc6a5397--LegendaryTooltips-1.19.2-forge-1.4.0.jar",
+          "sha256": "866f0773f15a085896652d7db9f92101ca83ba156ae99687f03d2ee0868b3d5d",
+          "size": 54346,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/libraryferret-forge-1.19.2-4.0.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b3966d619b20--libraryferret-forge-1.19.2-4.0.0.jar",
+          "sha256": "fe23f3c5e823d7453ef46b4a7515ce6258823ac0dc8da383d55f56e36656a4e2",
+          "size": 189524,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/lootr-forge-1.19-0.4.29.76.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2ab58bd124d4--lootr-forge-1.19-0.4.29.76.jar",
+          "sha256": "81ac157c5075b7251b09a581b56772a2ba5e27604bf16ba2dbdf7877b31923bc",
+          "size": 463767,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/lucent-1.19.2-1.4.1clien side.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e841fde39996--lucent-1.19.2-1.4.1clien_side.jar",
+          "sha256": "fc867b82ea1d93aacba3d97c9fe7964ccd1207554b44392dc3efd33d8a9df161",
+          "size": 205415,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/magic_vibe_decorations-2.0.0-forge.1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cfa3456eec37--magic_vibe_decorations-2.0.0-forge.1.19.2.jar",
+          "sha256": "55a9a117022aa4b2348eff3be9e9360c53aed74b96c94c7577a9ebfe56f7fa37",
+          "size": 1885125,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/map_atlases-1.19-6.0.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--483939051f7f--map_atlases-1.19-6.0.4.jar",
+          "sha256": "8b44affc3c4c265953098641fc125e9065107103f39c5fa65be06aa32e88a040",
+          "size": 661076,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/mcw-furniture-3.4.1-mc1.19.2forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e6037c257b48--mcw-furniture-3.4.1-mc1.19.2forge.jar",
+          "sha256": "dda2ac3f5444a845877a48b1d26e5419a7bc5766a1050530881864b784996fe0",
+          "size": 1985354,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/melody_forge_1.0.1_MC_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ce4bb11ead9e--melody_forge_1.0.1_MC_1.19.2.jar",
+          "sha256": "c9ce1a75bf33ff10bd1dd6074a7b39ed49fc7e03173e7ea9dc7d61715bd3d11b",
+          "size": 37177,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Mimic_Disguise-v5-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7733610dff5d--Mimic_Disguise-v5-forge-1.19.2.jar",
+          "sha256": "720bea752f104e73edd44c744f5ab932f2b753a14981f5e430f3d46d4742901d",
+          "size": 1589388,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/mining_helmet-1.19-2.1.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2a53d6798a66--mining_helmet-1.19-2.1.1.jar",
+          "sha256": "7edf129fa813470bd7c13b135e956dadc6b4d912aad0dcb6c7bf7ae259c83dcf",
+          "size": 105113,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/mns-1.0.1-1.19.2-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0f9ad8587531--mns-1.0.1-1.19.2-forge.jar",
+          "sha256": "c25ac32faa99011b41e6be95c57d22ca242cf3ffa7466430405d2c9530aa5169",
+          "size": 1634206,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/modernfix-forge-5.18.1+mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3db9eb1e9307--modernfix-forge-5.18.1_mc1.19.2.jar",
+          "sha256": "e14ea99b7341d7479e34e0dd6d96e0ee0b86914f2936eccbf23a5036f476580c",
+          "size": 777028,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/moonlight-1.19.2-2.3.7-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--da0c79710460--moonlight-1.19.2-2.3.7-forge.jar",
+          "sha256": "4811d325e2c24d0dd9c1a527c58f3bd6da2a8ac56c9c2a93f0b311b64a60eafc",
+          "size": 836351,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/More sleeps 1.19.2 - 1.3.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e84cf2cb3527--More_sleeps_1.19.2_-_1.3.jar",
+          "sha256": "9b2217d80442bbc2b33c9f46ecf930d6eb6e276b0b653c143685786d4262f312",
+          "size": 316430,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/MouseTweaks-forge-mc1.19-2.23.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--beb07e3130a6--MouseTweaks-forge-mc1.19-2.23.jar",
+          "sha256": "bf918fbaee669121d431c295337bd24ad90d2f9cb5e88bc46a241991ab401f81",
+          "size": 75983,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Necronomicon-Forge-1.4.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--03c27876d5cf--Necronomicon-Forge-1.4.2.jar",
+          "sha256": "4a2165db557d9607fcf550cee3f8d1c59cc9b0410dfbc03d48133cf9921f2a24",
+          "size": 45990,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/nerb-1.19.2-0.3-FORGE.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4ef420d1ec53--nerb-1.19.2-0.3-FORGE.jar",
+          "sha256": "c264a8290bc531064021fa56588ec03b1896648c32d99ccb12d6e5e03c25a58a",
+          "size": 10391,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Neruina-2.1.2-forge+1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9828e7dee269--Neruina-2.1.2-forge_1.19.2.jar",
+          "sha256": "ffcb37917f2beedb9fd62d52c72da9169882e674c0fdf4924bc85dbb9039db90",
+          "size": 3086244,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/noise_boost-1.2.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4214df3e6561--noise_boost-1.2.2.jar",
+          "sha256": "3135bb6c97aa165b79ee5bc1e3a2e1b88b1c2903020584f093e100e6d7405fdc",
+          "size": 213215,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/notenoughanimations-forge-1.12.4-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4a01a32dcb4d--notenoughanimations-forge-1.12.4-mc1.19.2.jar",
+          "sha256": "cca11f91b89006ded5fb647b9a3f219ac1cd2114a04665c6114c676787866316",
+          "size": 1938147,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/notenoughcrashes-5.0.0+1.19.2-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cc07d90c7fc4--notenoughcrashes-5.0.0_1.19.2-forge.jar",
+          "sha256": "3ae3a26acc58cbd743eea39d3d21d47d230e114e1e8fdf20818a3ae4ee17565c",
+          "size": 154996,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/obscure_api-9-1.19.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--3833bdb3494d--obscure_api-9-1.19.jar",
+          "sha256": "d5c4d2866ea6650faf50ae9a7e849e8a5c1c5f95c69ba2066c7054fbadc1bdff",
+          "size": 835801,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/obscure_tooltips-1.0.api9-1.19.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--47a26c576557--obscure_tooltips-1.0.api9-1.19.jar",
+          "sha256": "efb81d52acc84ec28d96021f6c19e80482c3640115174942464595679f042fb2",
+          "size": 34447,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/oculus-mc1.19.2-1.6.9a.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f2f737022233--oculus-mc1.19.2-1.6.9a.jar",
+          "sha256": "bf3bebed5c756af93f1c882c08f081be2b801d34cfacde7a648a12023ae64eb4",
+          "size": 3503720,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/okzoomer-forge-1.19-2.1.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--77258e813c6f--okzoomer-forge-1.19-2.1.1.jar",
+          "sha256": "33aa6aa638dfbbb5256620c9b180abbb540db2023096d502afa3c943b3f3b254",
+          "size": 120083,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Ordinary Coins 1.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--544a15b091ae--Ordinary_Coins_1.1.jar",
+          "sha256": "0ea8558b930510a9030004639f838e3d02f1b4522b6bc6687cecc9ff2cb6d3a4",
+          "size": 42295,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/PassableFoliage-1.19.1-forge-5.2.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e840bbb03427--PassableFoliage-1.19.1-forge-5.2.1.jar",
+          "sha256": "8e3097293115f87168eb227df38d1abaaf62d91f4e352b86c8b4b09a66920cd6",
+          "size": 24870,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Patchouli-1.19.2-77.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--27027ee8a495--Patchouli-1.19.2-77.jar",
+          "sha256": "ac3310decfc55493bd5b07da1ffb000f6be7a6cc24b3112088263d4cc64d100a",
+          "size": 635370,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Pehkui-3.8.2+1.19.2-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d02b63084560--Pehkui-3.8.2_1.19.2-forge.jar",
+          "sha256": "d339a56bcde96e8decd0935a0f83ea41dbc1f1df529fc18a8e63d683630596bb",
+          "size": 670815,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Placebo-1.19.2-7.4.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--de8e04b6a2ff--Placebo-1.19.2-7.4.1.jar",
+          "sha256": "84cd573f1ce660d9db400c51f8ea89537a44d3c86ee216e473a71aa1063030fd",
+          "size": 249350,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/player-animation-lib-forge-1.0.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6ff438b3c075--player-animation-lib-forge-1.0.2.jar",
+          "sha256": "80fb5397ce77981d63e56cb4d6953c5657ad3b96783152ec2048a90568431a76",
+          "size": 181297,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/PresenceFootsteps-1.19.2-1.6.4.1-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--16246ca06438--PresenceFootsteps-1.19.2-1.6.4.1-forge.jar",
+          "sha256": "ffea5229f79610aa59f7ffad46d0862b0a506624b5dd5f307fd0a21315f6dac3",
+          "size": 7176267,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Prism-1.19.1-1.0.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b1b843a83239--Prism-1.19.1-1.0.2.jar",
+          "sha256": "47687bf19654b0d5b30170ee7138fb3f10622b54671b1f2fb452a5ae4309d6f8",
+          "size": 51537,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/prp-1.1.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--536cdfbc134a--prp-1.1.0.jar",
+          "sha256": "ab88eefedb48ae461359eda874c41602582577c8f1d9fcbd11c41af07da240c0",
+          "size": 7693,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2d5dcd8f962f--PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
+          "sha256": "bb95c2854dd24d60f0bf93c7f3e45e79661067920618ed590e140000cc67210d",
+          "size": 395272,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Quark-3.4-418.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--fbf3cff41aa6--Quark-3.4-418.jar",
+          "sha256": "88802b12b343afa9a70483459eba6bc360007a8c40fe18f9c49ea1f5704dd131",
+          "size": 15024651,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/quartz_harvester-1.0.0-4.26.2023.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5c19e7872164--quartz_harvester-1.0.0-4.26.2023.jar",
+          "sha256": "666b3c96fef75d7ad2fc7e7048d4493f55621243891ab5226929ec548688d31a",
+          "size": 12878,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/quiet_silent-1.0.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c1cce32e7d2a--quiet_silent-1.0.0.jar",
+          "sha256": "a94f62ab61396ea4da6d2d476785ae42f157bbe75a0c63de98f8818968c269e2",
+          "size": 13559,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/realmrpg_creep_and_crop_1.0.2_forge_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e656e3d60d77--realmrpg_creep_and_crop_1.0.2_forge_1.19.2.jar",
+          "sha256": "681762c42542f485d140891dd684de69f9d4709767416992cce3f76fd2b39589",
+          "size": 123273,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/realmrpg_fallen_adventurers_1.0.3_forge_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5f2d20c44d2f--realmrpg_fallen_adventurers_1.0.3_forge_1.19.2.jar",
+          "sha256": "5c1094f414f6edb03d87046fa720bea04320e93bf0a14c14a6d0acd2a38a201d",
+          "size": 439304,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/reforgium-1.0.12a.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f1bc3b520fa5--reforgium-1.0.12a.jar",
+          "sha256": "9ed1293ebae789f8ec26b7ac0420c371032726916dc8e1f9075334f9b3f72914",
+          "size": 258866,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/REIPluginCompatibilities-forge-9.0.90.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--62052d379a00--REIPluginCompatibilities-forge-9.0.90.jar",
+          "sha256": "e78b5e2134bd1217e8aff5d69b0afb0b59fff9fe3bd09b3dba3a6fc7999e92d0",
+          "size": 434675,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/RemoveMouseoverHighlight-1.0.0+MC1.19.2(Forge).jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4601da647b5b--RemoveMouseoverHighlight-1.0.0_MC1.19.2_Forge_.jar",
+          "sha256": "4285648837a4097a5b05e730d1ec5d8430f415dc82b8a5a1d543659fefbe405c",
+          "size": 51402,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Rex's-AdditionalStructures-1.19.x-(v.4.0.4).jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--13e78e2691c5--Rex_s-AdditionalStructures-1.19.x-_v.4.0.4_.jar",
+          "sha256": "6e53a1d9845b13f9331e1b42d9eeb89649f032f59b89cc42117f26abe27d3d01",
+          "size": 1493535,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/RoughlyEnoughItems-9.2.784-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c2544ed54b66--RoughlyEnoughItems-9.2.784-forge.jar",
+          "sha256": "000f105c688a4a5e9f28e47bec2a565ad07ade09518f17a409c36481b9e8b35f",
+          "size": 2349438,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--75ed228ce09d--rubidium-extra-0.4.19_mc1.19.2-build.105.jar",
+          "sha256": "8a4ba0e883256d8db0eb54cda7608f7e2a2ba6867e618c14223c54aef282737a",
+          "size": 317160,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/rubidium-mc1.19.2-0.6.2c.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c709a8440d7e--rubidium-mc1.19.2-0.6.2c.jar",
+          "sha256": "fc500860374072a77a0e61f45f1d4c59237b897872d60b68e36fe07de723a468",
+          "size": 1407451,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sapling-tweaks-1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1f1f8ed62c4e--sapling-tweaks-1.jar",
+          "sha256": "4ca74e9aa030e9219fc837d5390df38f5784465e5d38c336547bc3304b5d04e5",
+          "size": 37842,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/saturn-mc1.19.2-0.1.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--693f2b0d76f7--saturn-mc1.19.2-0.1.4.jar",
+          "sha256": "36bb852d46343fc29cdb737a6cc17f2eb74543266373ba20693508270fec2b4e",
+          "size": 99426,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/ShoulderSurfing-Forge-1.19.2-4.22.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--90a9a9198bd0--ShoulderSurfing-Forge-1.19.2-4.22.1.jar",
+          "sha256": "56207a99b5163d44f813020307e9067936b681d64cf7dfd72fd8fc6e9b64208a",
+          "size": 263686,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/signal_flares-2.0.1-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7e8965856363--signal_flares-2.0.1-forge-1.19.2.jar",
+          "sha256": "6bebb26977a2c8057fba853b25799825b87912ef582f0adecb2a65252a710d71",
+          "size": 1066440,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sittingplus-2.0.5-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8d57eca17f85--sittingplus-2.0.5-1.19.2.jar",
+          "sha256": "7d8f9148c15b4c464c2807b3f60d084e34776159ddc8c706344184b4fcee4895",
+          "size": 25219,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/skinlayers3d-forge-1.11.2-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ba5741d033bd--skinlayers3d-forge-1.11.2-mc1.19.2.jar",
+          "sha256": "a199aaf8276a4ae5efa7ec242aab58465042e0c8d34a99ec0733c83538df750c",
+          "size": 2159238,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/SnowRealMagic-1.19.2-forge-6.5.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c40f70d50651--SnowRealMagic-1.19.2-forge-6.5.4.jar",
+          "sha256": "fb2f58bc8aa2b5c3eb53efb1437a1c294bec6aaf53fbf456775aa42384615b94",
+          "size": 165816,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sophisticatedbackpacks-1.19.2-3.20.2.1035.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9af986dbe3d3--sophisticatedbackpacks-1.19.2-3.20.2.1035.jar",
+          "sha256": "7d4c249cc03c833cdb22857b3e5241cce06ec29e68d1243af92847449f5560c4",
+          "size": 835625,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sophisticatedcore-1.19.2-0.6.4.730.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b1d1506e735e--sophisticatedcore-1.19.2-0.6.4.730.jar",
+          "sha256": "0de1a4c730674ad9f27611fa17b866f7ca5dca15841854d64867693c2a5862fe",
+          "size": 1059085,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sound-physics-remastered-forge-1.19.2-1.4.5.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f746a869fd93--sound-physics-remastered-forge-1.19.2-1.4.5.jar",
+          "sha256": "951264d2305ca1aa9f7f6c7091ede8d03e82238e31ed03b1624c83ed3e3a159f",
+          "size": 194996,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/sparsestructuresreforged-1.19.2-1.0.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ae01e39dc56c--sparsestructuresreforged-1.19.2-1.0.0.jar",
+          "sha256": "ddbd7d505cd3b298e51b2e84d29e09390b0d6774fe62930ef8410fd06f4bd624",
+          "size": 7072,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/starterkit-1.19.2-7.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--641506e46e2a--starterkit-1.19.2-7.0.jar",
+          "sha256": "832e8910700c8ab21526ce176079de1c65924234fa7f021e7863f5ac2deddf53",
+          "size": 183853,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Structory_1.19.3_v1.3.1a.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5da74b94659e--Structory_1.19.3_v1.3.1a.jar",
+          "sha256": "49de3de56ef6e71ad778cf457cc7145c4380099803a924d426bef7d28f1e8d3c",
+          "size": 1243852,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/structure_gel-1.19.2-2.7.3.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--61b880ed42a7--structure_gel-1.19.2-2.7.3.jar",
+          "sha256": "966afabbc2bb82c2262aad4e1ff1d162e2804433ec7605bf8df961fa7492a327",
+          "size": 706623,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.19.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--cbba38abe577--supermartijn642configlib-1.1.8-forge-mc1.19.jar",
+          "sha256": "506814fe38e5fb97cb41d9c94cbd8ce7b24d1d8cd5edd29498bc1fadf2a2bc6a",
+          "size": 206591,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/supermartijn642corelib-1.1.24a-forge-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--48a9f0456491--supermartijn642corelib-1.1.24a-forge-mc1.19.2.jar",
+          "sha256": "08a2313d31b7a9bd7e928020642d41574c2dbd78564888b5e4e984a8e102f38f",
+          "size": 544231,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/supplementaries-1.19.2-2.4.20.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4ab261c7d701--supplementaries-1.19.2-2.4.20.jar",
+          "sha256": "51369047cad85764f6f48788ffc73672d33232e9138e0d9df38983423e37fca1",
+          "size": 14957348,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/TerraBlender-forge-1.19.2-2.0.1.136.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dc3c30ee9909--TerraBlender-forge-1.19.2-2.0.1.136.jar",
+          "sha256": "0f40e4770501e243925d0c3b621863683d82334ebcfcca6b02af25213c8a1027",
+          "size": 96499,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/TextruesRubidiumOptions-1.0.7-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d516ebf23c4f--TextruesRubidiumOptions-1.0.7-mc1.19.2.jar",
+          "sha256": "e6b8aa7eccf15d0670d561ca7f14706819ba722561df6293277ebb2535061b63",
+          "size": 212100,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Thalassophobia-forge-1.19.2-1.8.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--45fd6bd9a0a1--Thalassophobia-forge-1.19.2-1.8.jar",
+          "sha256": "d88a94eea82ed507e005be376fc0c2e2efde6d1e7b7018cb82ebd8ea76da1001",
+          "size": 13358769,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/TheScarecrow-forge-1.19.2-1.4.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--a9c3ed4af0a9--TheScarecrow-forge-1.19.2-1.4.jar",
+          "sha256": "50e74e4318f80bd7c94e9ed562b6b0b236e5bbe265f5d77f33ca51934db4bafe",
+          "size": 710009,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/TheStairwell-forge-1.19.2-1.7.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--595844be614d--TheStairwell-forge-1.19.2-1.7.jar",
+          "sha256": "6b22eb4bfd247fab19b5ad5a40d8094b38f6268f6f8296c3999440bf1dc927b9",
+          "size": 1198830,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/the_boy_and_the_bath-4.0.1-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0fee240753c3--the_boy_and_the_bath-4.0.1-forge-1.19.2.jar",
+          "sha256": "7950d7a59add2cea36601534e13ba38eef4e209f349a2bb80b7e036212108786",
+          "size": 912261,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/The_Graveyard_2.5.3_(FORGE)_for_1.19.2..jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4955bc2bbc01--The_Graveyard_2.5.3__FORGE__for_1.19.2..jar",
+          "sha256": "8f14f94dbd8a269187e0e222a3c61b91ba74e09f39514637a204403ce5412a12",
+          "size": 13559075,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/The_Graveyard_Biomes_1.4_(FORGE)_for_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dfdec2826273--The_Graveyard_Biomes_1.4__FORGE__for_1.19.2.jar",
+          "sha256": "eb863aa9a0b88ad30527118830498685940a072c2f790012048155e07d780951",
+          "size": 236040,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/the_knocker-1.4.0c-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--294ada22560e--the_knocker-1.4.0c-forge-1.19.2.jar",
+          "sha256": "4bdef675c799dc760ebd36da5e63ed56242c7af362a3c284df0eeb60e0539252",
+          "size": 498071,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/the_masked-5.2.0-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7440e8f2c522--the_masked-5.2.0-1.19.2.jar",
+          "sha256": "3248304811b1a273c5476c668ae09c728e492b43b5b7bcf2af52e6e9486840ea",
+          "size": 6797004,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/the_obsessed-1.5.2g-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5c664e3da8f1--the_obsessed-1.5.2g-forge-1.19.2.jar",
+          "sha256": "a3949f015b97c8d8de1b01ec0c527d376fa57770a88453bd5514c8996d72c9b4",
+          "size": 3531181,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/ThisRocks-1.19.2-1.2.5.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--6d8919215215--ThisRocks-1.19.2-1.2.5.jar",
+          "sha256": "f3c3a2ec3bdde375190c71826839fb4a2c4150b0039e31122b1692c0da723209",
+          "size": 177499,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/umbral-1.19.2-0.24.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--992998730cd0--umbral-1.19.2-0.24.0.jar",
+          "sha256": "9dcc12aab2627e5d47f395ea757c31974452c598ef2a06d99ac8292b30e085f3",
+          "size": 144978,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/UnionLib-1.19.2-10.2.6-Forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--be8a2ef85f29--UnionLib-1.19.2-10.2.6-Forge.jar",
+          "sha256": "9c46946c1a841f0d56826c4fa6b9ba54a7756e8ac2c8a19d58774306551dd9b3",
+          "size": 390516,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/Vanishmod-1.19.2-1.1.15.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e1ea50babda2--Vanishmod-1.19.2-1.1.15.jar",
+          "sha256": "ea86ab8051b01c1765ea924fd30ba5597073380952624ec804db05c30d4322d8",
+          "size": 55238,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/VisualWorkbench-v4.2.4-1.19.2-Forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--33d43ed6d0cf--VisualWorkbench-v4.2.4-1.19.2-Forge.jar",
+          "sha256": "d1cd8b856c59bcbf4a9f985ed23aeadd6ce0a0117de6987b05dafa786f0dcd3b",
+          "size": 82918,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/voicechat-forge-1.19.2-2.6.22.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--dc35d2f6161c--voicechat-forge-1.19.2-2.6.22.jar",
+          "sha256": "86530357ba5525bcbea5ed30d6b6fa2e51ba9b3db133da686c73f0d33702354d",
+          "size": 5362156,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/VoidFog-1.19.2-2.0.19.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--04e259cf63e5--VoidFog-1.19.2-2.0.19.jar",
+          "sha256": "8b5cb7f17f569c683d0151626df7c0a89117857df48e3f8ffd532fca5bbe9d0a",
+          "size": 6339,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/watermedia-3.0.0.23.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--52d17ec54dee--watermedia-3.0.0.23.jar",
+          "sha256": "23f3d112ea973f6071e0ac9b1877282c6302ae9efd72428584209fc02219d12a",
+          "size": 3625445,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/watermedia_binaries-3.0.0.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--713986013351--watermedia_binaries-3.0.0.6.jar",
+          "sha256": "3b161eb534c13de1c4f10bb41d491c6422de1a7a19e11b06da56aa328ddd5809",
+          "size": 143725808,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/watermedia_platform_extension-3.0.0-beta.6.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--c686f0e2a44e--watermedia_platform_extension-3.0.0-beta.6.jar",
+          "sha256": "5c23260fc2c93202b3104c3683154d209f2a940b311ae2aad158272e722aed02",
+          "size": 248821,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/watut-forge-1.19.2-1.0.14.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--8064cbd05bcd--watut-forge-1.19.2-1.0.14.jar",
+          "sha256": "0b4b95c7be644c251ebfb845b7d0b6faf56c6a58473c6c4f8040e613c8e8d841",
+          "size": 162555,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/waveycapes-forge-1.11.1-mc1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5ff96d4724d7--waveycapes-forge-1.11.1-mc1.19.2.jar",
+          "sha256": "74a49c819f5a607e9a668add24dc4add2baa4388fc5fba740ce6ad184b35dae3",
+          "size": 1776876,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/waystones-forge-1.19.2-11.4.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ab4afc054693--waystones-forge-1.19.2-11.4.2.jar",
+          "sha256": "484cf04d30a48dc04bdbe07ff539f1025cbf98d885aba81a18a436d9d6c54164",
+          "size": 409113,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/whos_there-1.4.1-forge-1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--054e8e62deab--whos_there-1.4.1-forge-1.19.2.jar",
+          "sha256": "07308c67565ddd7ed15dbd1fd62ed22ac62e498c93659ac8c9c20641d82efe57",
+          "size": 811430,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/xaerominimap-forge-1.19.2-26.5.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--d544b7da23fc--xaerominimap-forge-1.19.2-26.5.0.jar",
+          "sha256": "2507f21cbc9b78173560d379526f9ebdbea5d3c8d0ce9871a277ecef6d83860b",
+          "size": 2172996,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/xaeros_waystones_compatibility-1.1 - 1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--0c24cf0ad3fd--xaeros_waystones_compatibility-1.1_-_1.19.2.jar",
+          "sha256": "6cdc3d0038ab685823847533ba9d8db8630a35bcee83312d6dadffa5b084bd90",
+          "size": 8650,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/xaeroworldmap-forge-1.19.2-1.45.0.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ba9983fe0005--xaeroworldmap-forge-1.19.2-1.45.0.jar",
+          "sha256": "98f4976d0a7783e1811f57e72480d12523a59453cf8eb33c912ac412c03a4b22",
+          "size": 1404113,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/YouDied-1.19.2-2.1.0.14-forge.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e363f3b3906d--YouDied-1.19.2-2.1.0.14-forge.jar",
+          "sha256": "0cc4c9e1d0ab03251c56fd65037014373373b80def36d2a7f2351e0bb2d66dc5",
+          "size": 289117,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/YungsApi-1.19.2-Forge-3.8.10.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7fbb36947ec4--YungsApi-1.19.2-Forge-3.8.10.jar",
+          "sha256": "da0e8682b0be608c2df0758bb188a4eafb138f308ff62e94ec6335ba6fadeb51",
+          "size": 293336,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b63eed840bc8--YungsBetterDungeons-1.19.2-Forge-3.2.2.jar",
+          "sha256": "0ec801ccaa72b92ce696b9587736f4eb907e0fbf8077a6a3d7c4102ef0b89c41",
+          "size": 997998,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--f452e479d5a1--YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+          "sha256": "ef305173fa339d82f8ca10ed75c07e84ccdde887ba2354aacec5baaad20849c5",
+          "size": 273478,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/zaynens_flint_from_gravel_mod_1.19.2.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7e44139aa8b6--zaynens_flint_from_gravel_mod_1.19.2.jar",
+          "sha256": "80aa565f5d661b67843d9c2a4bbdf33f89b75cde85e61098ad0983890ad294d8",
+          "size": 6234,
+          "kind": "mod"
+        },
+        {
+          "path": "mods/zombieawareness-1.19.2-1.12.3.jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--58fc50f3452e--zombieawareness-1.19.2-1.12.3.jar",
+          "sha256": "b8aa38a1ba44e1a217d7ac25cdf218b4dfa005ddeaac723ef4a8ee3df2ec8c05",
+          "size": 283612,
+          "kind": "mod"
+        },
+        {
+          "path": "resourcepacks/A Good Place Sample Pack.zip",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--e7302724027e--A_Good_Place_Sample_Pack.zip",
+          "sha256": "5b8cf486adaac6cd1806cd211c2262bf33d26097ace97297ef9b06c0a2c7fbd9",
+          "size": 76854,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/Cave Dweller.zip",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7eec356d95c6--Cave_Dweller.zip",
+          "sha256": "11df4b54429de208775dd074e69d2d88fbb0151748566f2994317aceb8baf841",
+          "size": 750686,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/assets/halloween_mood/lang/es_es.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--58fc004e4a66--es_es.json",
+          "sha256": "278399dec26d90f6473f34f84ea11542c17737211501f3ef1f97da503abac205",
+          "size": 1645,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/book.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--bcf98dc4db05--book.json",
+          "sha256": "2495f46b0b0912aabff49b95bdbf1663eaad7eec3cf60147519d676722c14659",
+          "size": 104,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/categories/candies.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--18eac1a2da74--candies.json",
+          "sha256": "9153678c28833d49a51632eac9409f39c911f35c50b7648acba46e5124706568",
+          "size": 99,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/entries/blueunicornlolipop.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--7605867d80b1--blueunicornlolipop.json",
+          "sha256": "cbdea4f206bdca3ea7dfd0f622791ad4f1a9226ebbe8f1744a47ce0004cb2434",
+          "size": 442,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/entries/nutsofudge.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--5ab8ec63dcf2--nutsofudge.json",
+          "sha256": "f3fa28666ecbd92ed9eddf4ef5a27ef1b5cbddeb7214e8a19ecd36d3c05cd31a",
+          "size": 414,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/entries/redunicornlolipop.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--b5899ef2a118--redunicornlolipop.json",
+          "sha256": "5c6879cd675dfe6a277c1bbd8ec148d1499de1dfcf134887a3a439cbbb337e75",
+          "size": 484,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/entries/smagada.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--503791744c2c--smagada.json",
+          "sha256": "ff172098b0df7e59c78be8f99cbbd66ec437581a07ce29810c142c278c0ba88c",
+          "size": 376,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/data/halloween_mood/patchouli_books/candies/es_es/entries/tastygelmints.json",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--97e48752aaae--tastygelmints.json",
+          "sha256": "d43b01be01d87bac42eabf6aea6a74b73761b140e7ce8ffadeed53e79a05d700",
+          "size": 539,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/pack.mcmeta",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--04579d2b3207--pack.mcmeta",
+          "sha256": "590c31938aba2a0dee821de2c9cf46eb7e163773f875a1a4f46eddfa557abb1c",
+          "size": 108,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/patchouli_books_ready/README.txt",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--14169cbcce0a--README.txt",
+          "sha256": "ef0ec3861fa603d80461100e0127abae73d06c6738fe15dfe25945703564a9d1",
+          "size": 436,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "resourcepacks/Quark Programmer Art.zip",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--1a0432eff5c3--Quark_Programmer_Art.zip",
+          "sha256": "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d",
+          "size": 266434,
+          "kind": "resourcepack"
+        },
+        {
+          "path": "shaderpacks/Chocapic13_V9.1_Extreme_beta_5.zip",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--9e8dcf7d12be--Chocapic13_V9.1_Extreme_beta_5.zip",
+          "sha256": "9e7ea6f2af5845c29d16fd962dec20c2e8e8e2b738ba0034a4d554a34cda0610",
+          "size": 3675622,
+          "kind": "shaderpack"
+        }
+      ],
+      "remove": []
+    }
+  ]
+}
