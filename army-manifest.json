@@ -5,7 +5,7 @@
     "id": "pandarmy-halloween",
     "name": "PandArmy Halloween",
     "version": "1.0.1",
-    "publishedAt": "2026-10-03T21:29:19.508Z"
+    "publishedAt": "2026-10-03T22:17:51.613Z"
   },
   "preserve": [
     "saves/**",
@@ -2776,7 +2776,7 @@
         },
         {
           "path": "mods/The_Graveyard_2.5.3_(FORGE)_for_1.19.2..jar",
-          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4955bc2bbc01--The_Graveyard_2.5.3__FORGE__for_1.19.2..jar",
+          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--4955bc2bbc01--The_Graveyard_2.5.3__FORGE__for_1.19.2.jar",
           "sha256": "8f14f94dbd8a269187e0e222a3c61b91ba74e09f39514637a204403ce5412a12",
           "size": 13559075,
           "kind": "mod"
