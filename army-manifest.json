@@ -5,7 +5,7 @@
     "id": "pandarmy-halloween",
     "name": "PandArmy Halloween",
     "version": "1.0.1",
-    "publishedAt": "2026-10-03T21:06:24.986Z"
+    "publishedAt": "2026-10-03T21:29:19.508Z"
   },
   "preserve": [
     "saves/**",
@@ -721,13 +721,6 @@
           "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--789d26419e2b--sort-order.json",
           "sha256": "0407103fb7c900ce36d29887e3153127a5b5ded3f040a6b365418cb33485075c",
           "size": 2666,
-          "kind": "config"
-        },
-        {
-          "path": "config/jei/blacklist.cfg",
-          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--89589c67edda--blacklist.cfg",
-          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "size": 0,
           "kind": "config"
         },
         {
@@ -1666,13 +1659,6 @@
           "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--ec59b462eaf3--xaerohud.txt",
           "sha256": "dfafe02f18c2517394828b31443ecfd1e0b5c43470dcb5863facbba6fd9fe233",
           "size": 126,
-          "kind": "config"
-        },
-        {
-          "path": "config/xaeropatreon.txt",
-          "url": "https://github.com/ElAbraxX/Pandarmy-modpacks/releases/download/v1.0.1/pandarmy-forge--2f8a3d077dd1--xaeropatreon.txt",
-          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "size": 0,
           "kind": "config"
         },
         {
